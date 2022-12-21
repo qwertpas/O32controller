@@ -597,7 +597,7 @@
     (property "Value" "Motor Connection" (id 1) (at 172.72 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD2.3mm" (id 2) (at 170.18 85.09 0)
+    (property "Footprint" "O32controller:SolderWire-Actual_1x01_D1.7mm_OD_2.5mm" (id 2) (at 170.18 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 85.09 0)
