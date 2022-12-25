@@ -452,13 +452,10 @@
   (pad "27" thru_hole circle (at 0 -2.45) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp 3082ba75-3bf7-4bef-ae25-be119cff67f9))
   (pad "27" smd rect (at 0 0) (size 3.300001 5.399999) (layers "F.Cu") (tstamp 31d28cda-35de-4a75-b03d-8660f9f8381c))
   (pad "27" thru_hole circle (at 0 1.320002) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp 5a2448a9-0895-44b7-bced-1d1986b1d413))
-  (pad "27" thru_hole circle (at -1.4 1.32) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp 5b46e8aa-885b-44e9-b988-7804713a4f8c))
   (pad "27" thru_hole circle (at 1.4 -1.32) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp 5cdf0851-b0d1-4f06-968a-85b043c6e5dc))
   (pad "27" thru_hole circle (at 0 0) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp 8750e88a-11bb-4b46-8454-c91d970a685e))
-  (pad "27" thru_hole circle (at -1.4 0) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp 94d66aad-6a37-4b74-be2f-f9822454a3b0))
   (pad "27" thru_hole circle (at 1.4 1.32) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp adb7b1a9-2887-4fd0-b03e-4a4486ae9002))
   (pad "27" thru_hole circle (at 0 2.45) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp b058f920-9275-4e23-8202-4ae1d6fbfc3e))
-  (pad "27" thru_hole circle (at -1.4 -1.32) (size 0.499999 0.499999) (drill 0.2032) (layers *.Cu *.Mask) (tstamp c921f159-47b8-4402-9ba5-335a24658cca))
   (model "${KIPRJMOD}/O32controller.pretty/DMM0022A.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
