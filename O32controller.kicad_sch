@@ -3041,13 +3041,13 @@
       (reference "C17") (unit 1) (value "4.7nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/afcdcb47-145e-4051-91ad-5d7b960fbb25/df3e0408-eb90-4826-9e31-7df47eff95be"
-      (reference "C18") (unit 1) (value "1nF") (footprint "")
+      (reference "C18") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/801c7eb0-ff7a-4793-a702-7472e29bc37a/df3e0408-eb90-4826-9e31-7df47eff95be"
-      (reference "C19") (unit 1) (value "1nF") (footprint "")
+      (reference "C19") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/d1474dce-644b-4913-80b1-6962d0581a1a/df3e0408-eb90-4826-9e31-7df47eff95be"
-      (reference "C20") (unit 1) (value "1nF") (footprint "")
+      (reference "C20") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/0ac15b63-91ac-46a9-92b2-a898e36cd177"
       (reference "D1") (unit 1) (value "SBA0540Q") (footprint "Diode_SMD:D_DFN2L")
@@ -3083,13 +3083,13 @@
       (reference "L1") (unit 1) (value "22uH") (footprint "O32controller:IND_VLS201612CX-220M-1")
     )
     (path "/afcdcb47-145e-4051-91ad-5d7b960fbb25/4ba53449-b73b-4065-96fe-dbac820b11ee"
-      (reference "NT1") (unit 1) (value "Sense_N") (footprint "")
+      (reference "NT1") (unit 1) (value "Sense_N") (footprint "NetTie:NetTie-small")
     )
     (path "/801c7eb0-ff7a-4793-a702-7472e29bc37a/4ba53449-b73b-4065-96fe-dbac820b11ee"
-      (reference "NT2") (unit 1) (value "Sense_N") (footprint "")
+      (reference "NT2") (unit 1) (value "Sense_N") (footprint "NetTie:NetTie-small")
     )
     (path "/d1474dce-644b-4913-80b1-6962d0581a1a/4ba53449-b73b-4065-96fe-dbac820b11ee"
-      (reference "NT3") (unit 1) (value "Sense_N") (footprint "")
+      (reference "NT3") (unit 1) (value "Sense_N") (footprint "NetTie:NetTie-small")
     )
     (path "/afcdcb47-145e-4051-91ad-5d7b960fbb25/e5908c71-7c0e-40c1-9677-f9631b351076"
       (reference "Q1") (unit 1) (value "CSD88584Q5DCT") (footprint "O32controller:CSD88584Q5DCT")
