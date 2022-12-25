@@ -958,7 +958,7 @@
     (property "Value" "WFCP06124L000FE66 0.004R" (id 1) (at 124.46 133.3501 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "RESC2550X76N" (id 2) (at 128.27 134.62 0)
+    (property "Footprint" "Resistor_SMD:R_Shunt_2512_6332Metric" (id 2) (at 128.27 134.62 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 128.27 134.62 0)
