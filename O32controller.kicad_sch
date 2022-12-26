@@ -3105,7 +3105,7 @@
       (reference "Q3") (unit 1) (value "CSD88584Q5DCT") (footprint "O32controller:CSD88584Q5DCT")
     )
     (path "/afcdcb47-145e-4051-91ad-5d7b960fbb25/e68edefb-adf8-4027-b434-d78eb63148e3"
-      (reference "R1") (unit 1) (value "WSLF25122L000FEB 0.002R") (footprint "")
+      (reference "R1") (unit 1) (value "WSLF25122L000FEB 0.002R") (footprint "Resistor_SMD:R_Shunt_2512_6332Metric")
     )
     (path "/afcdcb47-145e-4051-91ad-5d7b960fbb25/07586ee8-5ac9-45cf-8632-be3ea971fa36"
       (reference "R2") (unit 1) (value "1.78k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -3117,7 +3117,7 @@
       (reference "R4") (unit 1) (value "13.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/801c7eb0-ff7a-4793-a702-7472e29bc37a/e68edefb-adf8-4027-b434-d78eb63148e3"
-      (reference "R5") (unit 1) (value "WSLF25122L000FEB 0.002R") (footprint "")
+      (reference "R5") (unit 1) (value "WSLF25122L000FEB 0.002R") (footprint "Resistor_SMD:R_Shunt_2512_6332Metric")
     )
     (path "/801c7eb0-ff7a-4793-a702-7472e29bc37a/07586ee8-5ac9-45cf-8632-be3ea971fa36"
       (reference "R6") (unit 1) (value "1.78k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -3129,7 +3129,7 @@
       (reference "R8") (unit 1) (value "13.7k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d1474dce-644b-4913-80b1-6962d0581a1a/e68edefb-adf8-4027-b434-d78eb63148e3"
-      (reference "R9") (unit 1) (value "WSLF25122L000FEB 0.002R") (footprint "")
+      (reference "R9") (unit 1) (value "WSLF25122L000FEB 0.002R") (footprint "Resistor_SMD:R_Shunt_2512_6332Metric")
     )
     (path "/d1474dce-644b-4913-80b1-6962d0581a1a/07586ee8-5ac9-45cf-8632-be3ea971fa36"
       (reference "R10") (unit 1) (value "1.78k") (footprint "Resistor_SMD:R_0402_1005Metric")
