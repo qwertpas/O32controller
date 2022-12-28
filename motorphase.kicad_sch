@@ -697,7 +697,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2dc2cc98-651c-4d7a-bd77-a129e0431d55)
   )
-  (label "Motor" (at 156.21 85.09 0)
+  (label "Motor" (at 156.21 83.82 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2e91ecdd-58b3-4538-978b-c0946e87e337)
   )
