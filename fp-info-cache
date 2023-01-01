@@ -1,4 +1,4 @@
-20409635750816299
+20416325724785172
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60340,12 +60340,40 @@ CSD88584Q5DCT
 19
 11
 O32controller
+DIODFN100X60X43-2N
+
+
+0
+2
+2
+O32controller
 IND_VLS201612CX-220M-1
 
 
 0
 2
 2
+O32controller
+JST_SM02B-SRSS-TB(LF)(SN)
+<b>SM02B-SRSS-TB</b><br>
+
+0
+4
+4
+O32controller
+JST_SM04B-SRSS-TB(LF)(SN)
+
+
+0
+6
+6
+O32controller
+MA702GQ-P
+
+
+0
+17
+17
 O32controller
 RESC2550X76N
 
@@ -60354,12 +60382,12 @@ RESC2550X76N
 2
 2
 O32controller
-SM02B-SRSS-TB(LF)(SN)
-<b>SM02B-SRSS-TB</b><br>
+SDM2U30CSP-7
+
 
 0
-4
-4
+2
+2
 O32controller
 SolderWire-Actual_1x01_D1.7mm_OD_2.5mm
 Soldered wire connection, for a single 0.75 mm² wire, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator
