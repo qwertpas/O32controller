@@ -1,4 +1,4 @@
-20416325724785172
+20417999704265811
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60410,19 +60410,26 @@ connector wire 0.75sqmm
 1
 1
 O32controller
+THVD1420DRLR
+
+
+0
+8
+8
+O32controller
+THVD1420DRLR_SOT-585
+
+
+0
+8
+8
+O32controller
 VFQFPN-48-1EP_7x7mm_P0.5mm_EP2.8x2.8mm
 VQFN, 48 Pin (http://www.ti.com/lit/ds/symlink/cc430f5137.pdf#page=128), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
 53
 49
-O32controller
-WFCP06121L000FE66
-Resistor SMD 0612 (1632 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20019/rcwe.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
