@@ -1,4 +1,4 @@
-20417999704265811
+20419672893604890
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60423,6 +60423,13 @@ THVD1420DRLR_SOT-585
 0
 8
 8
+O32controller
+Tactile_Switch_EVQ-P7A01P
+
+
+0
+4
+2
 O32controller
 VFQFPN-48-1EP_7x7mm_P0.5mm_EP2.8x2.8mm
 VQFN, 48 Pin (http://www.ti.com/lit/ds/symlink/cc430f5137.pdf#page=128), generated with kicad-footprint-generator ipc_noLead_generator.py
