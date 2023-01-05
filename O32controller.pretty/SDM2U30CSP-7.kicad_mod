@@ -2,8 +2,8 @@
   (layer "F.Cu")
   (tedit 63B10165)
   (attr through_hole)
-  (fp_text reference "REF**" (at -0.2 -0.9) (layer "F.SilkS")
-    (effects (font (size 0.321024 0.321024) (thickness 0.15)))
+  (fp_text reference "REF**" (at -0.2 -0.9) (layer "F.SilkS") hide
+    (effects (font (size 0.321024 0.321024) (thickness 0.080256)))
     (tstamp c28a0802-6d69-4275-aa58-0143995cef8e)
   )
   (fp_text value "SDM2U30CSP-7" (at -0.2 0.869493) (layer "F.Fab")

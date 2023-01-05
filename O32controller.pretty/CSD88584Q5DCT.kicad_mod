@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 0)
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -5.08) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -5.08) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 14ddd93b-82d5-47b3-875f-c59e4ee7c71a)
   )
@@ -316,7 +316,8 @@
     ) (layer "F.Paste") (width 0.1) (fill solid) (tstamp c5bd7033-04ce-4564-aab5-6f3cb56f0a23))
   (fp_line (start -1.599999 3.149999) (end 1.599999 3.149999) (layer "F.SilkS") (width 0.12) (tstamp 47a1cfd7-5799-4272-89b3-72efbc67624c))
   (fp_line (start -1.599999 -3.149999) (end 1.599999 -3.149999) (layer "F.SilkS") (width 0.12) (tstamp 5129b914-1ed8-4d78-9beb-3037dd3576ab))
-  (fp_circle (center -2.921 -3.048) (end -2.821 -3.048) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 5cc56c32-e8fc-47dd-b2c3-ba69386cf428))
+  (fp_line (start -2.65 -2.75) (end -2.65 -3.15) (layer "F.SilkS") (width 0.12) (tstamp 88a88026-1b22-4f5c-becf-ec5df8aa4c0b))
+  (fp_line (start -2.65 -3.15) (end -2.45 -3.15) (layer "F.SilkS") (width 0.12) (tstamp a967b37f-86d9-4b90-a2eb-ca4e91aa5f15))
   (fp_rect (start -3.048 -3.302) (end 3.048 3.302) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 2d146bb1-6baf-4d1b-b47d-f3ccaa030ee3))
   (fp_line (start -2.55 3.049999) (end 2.55 3.049999) (layer "F.Fab") (width 0.1) (tstamp 011d782c-6a85-4cd3-b31f-4a4a72f59ea5))
   (fp_line (start -2.55 -3.049999) (end 2.55 -3.049999) (layer "F.Fab") (width 0.1) (tstamp 39192cb9-cfa2-4cac-9c45-86889b6ac79c))
