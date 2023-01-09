@@ -382,7 +382,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "O32controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/100x100.kicad_wks"
