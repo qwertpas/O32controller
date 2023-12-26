@@ -1,0 +1,126 @@
+Source:,/Users/christopherxu/KiCad/O32controller/O32controller.kicad_sch,/Users/christopherxu/KiCad/O32controller/O32controller.kicad_sch,,,,,,,,
+Date:,"Friday, January 06, 2023 at 02:33:27 AM","Friday, January 06, 2023 at 02:33:27 AM",,,,,,,,
+Tool:,Eeschema (6.0.7-1)-1,Eeschema (6.0.7-1)-1,,,,,,,,
+Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,,,,
+Component Count:,79,79,,,,,,,,
+,,,,,,,,,,
+Individual Components:,,,,,,,,,,
+,,,,,,,,,,
+Item,Qty,Qty,,Reference(s),Value,MP,LibPart,Footprint,Datasheet,MP
+,,,,C1,100nF,CL05A104KA5NNNC ,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf,CL05A104KA5NNNC 
+,,,,C2,47uF,GRM188R60J476ME15D,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf,GRM188R60J476ME15D
+,,,,C3,10uF,GRM188R6YA106MA73D,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01.pdf,GRM188R6YA106MA73D
+,,,,C4,100nF,CL05A104KA5NNNC ,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf,CL05A104KA5NNNC 
+,,,,C5,100nF,CL05A104KA5NNNC ,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf,CL05A104KA5NNNC 
+,,,,C6,100nF,CL05A104KA5NNNC ,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf,CL05A104KA5NNNC 
+,,,,C7,100nF,CL05A104KA5NNNC ,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf,CL05A104KA5NNNC 
+,,,,C8,100uF,EEE-FN1E101UP,Device:C_Polarized_Small_US,O32controller:CAP_EEEFN1E101UP,https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UP/11656944,EEE-FN1E101UP
+,,,,C9,100uF,EEE-FN1E101UP,Device:C_Polarized_Small_US,O32controller:CAP_EEEFN1E101UP,https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UP/11656944,EEE-FN1E101UP
+,,,,C10,1uF,GCM155C71A105KE38D,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&cvid=20200508021757000000,GCM155C71A105KE38D
+,,,,C11,1nF,CC0402MRX7R9BB102,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf,CC0402MRX7R9BB102
+,,,,C12,10nF,CL05B103KB5NNNC,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf,CL05B103KB5NNNC
+,,,,C13,4.7nF,GRM155R72A472KA01D,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R72A472KA01-01.pdf,GRM155R72A472KA01D
+,,,,C14,10nF,CL05B103KB5NNNC,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf,CL05B103KB5NNNC
+,,,,C15,4.7nF,GRM155R72A472KA01D,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R72A472KA01-01.pdf,GRM155R72A472KA01D
+,,,,C16,10nF,CL05B103KB5NNNC,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf,CL05B103KB5NNNC
+,,,,C17,4.7nF,GRM155R72A472KA01D,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R72A472KA01-01.pdf,GRM155R72A472KA01D
+,,,,C18,1nF,CC0402MRX7R9BB102,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf,CC0402MRX7R9BB102
+,,,,C19,1nF,CC0402MRX7R9BB102,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf,CC0402MRX7R9BB102
+,,,,C20,1nF,CC0402MRX7R9BB102,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf,CC0402MRX7R9BB102
+,,,,C21,1nF,CC0402MRX7R9BB102,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf,CC0402MRX7R9BB102
+,,,,D1,SDM2U30CSP,SDM2U30CSP,Device:D_Schottky_Small,O32controller:SDM2U30CSP-7,https://www.diodes.com/assets/Datasheets/SDM2U30CSP.pdf,SDM2U30CSP
+,,,,D2,ESDA17P20-1F2 ,ESDA17P20-1F2,Device:D_TVS,Diode_SMD:D_0402_CSP,https://www.st.com/resource/en/datasheet/esda17p20-1f2.pdf,ESDA17P20-1F2
+,,,,D3,RED,150060RS55040,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060RS55040.pdf,150060RS55040
+,,,,D4,GREEN,150060VS55040,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060VS55040.pdf,150060VS55040
+,,,,D5,SDM2U30CSP,SDM2U30CSP,Device:D_Schottky_Small,O32controller:SDM2U30CSP-7,https://www.diodes.com/assets/Datasheets/SDM2U30CSP.pdf,SDM2U30CSP
+,,,,D6,SDM2U30CSP,SDM2U30CSP,Device:D_Schottky_Small,O32controller:SDM2U30CSP-7,https://www.diodes.com/assets/Datasheets/SDM2U30CSP.pdf,SDM2U30CSP
+,,,,J1,SWD,SM04B-SRSS-TB(LF)(SN),O32controller:JST_SM04B-SRSS-TB(LF)(SN),O32controller:JST_SM04B-SRSS-TB(LF)(SN),https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/,SM04B-SRSS-TB(LF)(SN)
+,,,,J4,Motor Connection,,Connector_Generic:Conn_01x01,O32controller:SolderWire-Actual_1x01_D1.7mm_OD_2.75mm,~,
+,,,,J5,Motor Connection,,Connector_Generic:Conn_01x01,O32controller:SolderWire-Actual_1x01_D1.7mm_OD_2.75mm,~,
+,,,,J6,Motor Connection,,Connector_Generic:Conn_01x01,O32controller:SolderWire-Actual_1x01_D1.7mm_OD_2.75mm,~,
+,,,,J9,I2C/RS485_1,SM02B-SRSS-TB_LF__SN_,:JST_SM02B-SRSS-TB(LF)(SN)_1,O32controller:JST_SM02B-SRSS-TB(LF)(SN),https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/,SM02B-SRSS-TB_LF__SN_
+,,,,J12,I2C/RS485_2,SM02B-SRSS-TB_LF__SN_,O32controller:JST_SM02B-SRSS-TB(LF)(SN),O32controller:JST_SM02B-SRSS-TB(LF)(SN),https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/,SM02B-SRSS-TB_LF__SN_
+,,,,L1,22uH,VLS201612CX-220M-1 ,Device:L_Small,O32controller:IND_VLS201612CX-220M-1,https://www.digikey.com/en/products/detail/tdk-corporation/VLS201612CX-220M-1/5169767,VLS201612CX-220M-1 
+,,,,NT1,Sense_N,,Device:NetTie_2,NetTie:NetTie-small,~,
+,,,,NT2,Sense_N,,Device:NetTie_2,NetTie:NetTie-small,~,
+,,,,NT3,Sense_N,,Device:NetTie_2,NetTie:NetTie-small,~,
+,,,,Q1,CSD88584Q5DCT,CSD88584Q5DCT,O32controller:CSD88584Q5DCT,O32controller:CSD88584Q5DCT,https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf,CSD88584Q5DCT
+,,,,Q2,CSD88584Q5DCT,CSD88584Q5DCT,O32controller:CSD88584Q5DCT,O32controller:CSD88584Q5DCT,https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf,CSD88584Q5DCT
+,,,,Q3,CSD88584Q5DCT,CSD88584Q5DCT,O32controller:CSD88584Q5DCT,O32controller:CSD88584Q5DCT,https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf,CSD88584Q5DCT
+,,,,R1,WSLF25122L000FEB 0.002R,WSLF25122L000FEB 0.002R,O32controller:WFCP06124L000FE66,Resistor_SMD:R_Shunt_2512_6332Metric,https://www.vishay.com/docs/30193/wslf.pdf,WSLF25122L000FEB 0.002R
+,,,,R2,1.78k,RC0402FR-071K78L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071K78L 
+,,,,R3,1.78k,RC0402FR-071K78L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071K78L 
+,,,,R4,13.7k,RC0402FR-0713K7L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0713K7L 
+,,,,R5,WSLF25122L000FEB 0.002R,WSLF25122L000FEB 0.002R,O32controller:WFCP06124L000FE66,Resistor_SMD:R_Shunt_2512_6332Metric,https://www.vishay.com/docs/30193/wslf.pdf,WSLF25122L000FEB 0.002R
+,,,,R6,1.78k,RC0402FR-071K78L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071K78L 
+,,,,R7,1.78k,RC0402FR-071K78L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071K78L 
+,,,,R8,13.7k,RC0402FR-0713K7L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0713K7L 
+,,,,R9,WSLF25122L000FEB 0.002R,WSLF25122L000FEB 0.002R,O32controller:WFCP06124L000FE66,Resistor_SMD:R_Shunt_2512_6332Metric,https://www.vishay.com/docs/30193/wslf.pdf,WSLF25122L000FEB 0.002R
+,,,,R10,1.78k,RC0402FR-071K78L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071K78L 
+,,,,R11,1.78k,RC0402FR-071K78L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071K78L 
+,,,,R12,13.7k,RC0402FR-0713K7L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0713K7L 
+,,,,R13,10R,RCS040210R0FKED ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/20065/rcse3.pdf,RCS040210R0FKED 
+,,,,R14,2.2k,RC0402FR-072K2L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-072K2L 
+,,,,R15,10R,RCS040210R0FKED ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/20065/rcse3.pdf,RCS040210R0FKED 
+,,,,R16,10R,RCS040210R0FKED ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/20065/rcse3.pdf,RCS040210R0FKED 
+,,,,R17,2.2k,RC0402FR-072K2L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-072K2L 
+,,,,R18,10R,RCS040210R0FKED ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/20065/rcse3.pdf,RCS040210R0FKED 
+,,,,R19,10R,RCS040210R0FKED ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/20065/rcse3.pdf,RCS040210R0FKED 
+,,,,R20,2.2k,RC0402FR-072K2L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-072K2L 
+,,,,R21,10R,RCS040210R0FKED ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/20065/rcse3.pdf,RCS040210R0FKED 
+,,,,R22,121k,RC0402FR-07121KL ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-07121KL 
+,,,,R23,2.2R,SG73P1EWTTP2R20F ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP2R20F/14316750,SG73P1EWTTP2R20F 
+,,,,R24,2.2R,SG73P1EWTTP2R20F ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP2R20F/14316750,SG73P1EWTTP2R20F 
+,,,,R25,2.2R,SG73P1EWTTP2R20F ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP2R20F/14316750,SG73P1EWTTP2R20F 
+,,,,R26,41.2k,RC0402FR-0741K2L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0741K2L 
+,,,,R27,10k,RC0402FR-0710KL ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0710KL 
+,,,,R28,1k,RC0402FR-071KL ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071KL 
+,,,,R29,1k,RC0402FR-071KL ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071KL 
+,,,,R30,27.4k,RC0402FR-0727K4L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0727K4L 
+,,,,R31,27.4k,RC0402FR-0727K4L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0727K4L 
+,,,,R32,27.4k,RC0402FR-0727K4L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0727K4L 
+,,,,R33,27.4k,RC0402FR-0727K4L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0727K4L 
+,,,,R34,27.4k,RC0402FR-0727K4L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0727K4L 
+,,,,R35,27.4k,RC0402FR-0727K4L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0727K4L 
+,,,,SW1,RESET,EVQ-P7A01P ,Switch:SW_Push,O32controller:Tactile_Switch_EVQ-P7A01P,https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447,EVQ-P7A01P 
+,,,,U1,MA702GQ-P,MA702GQ-P,O32controller:MA702GQ-P,O32controller:MA702GQ-P,https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA702GQ-Z/document_id/3561/,MA702GQ-P
+,,,,U2,STSPIN32F0A,STSPIN32F0A,O32controller:STSPIN32F0A,O32controller:VFQFPN-48-1EP_7x7mm_P0.5mm_EP2.8x2.8mm,https://www.st.com/en/motor-drivers/stspin32f0a.html#overview,STSPIN32F0A
+,,,,U3,THVD1420DRLR,THVD1420DRLR,O32controller:THVD1420DRLR,O32controller:THVD1420DRLR_SOT-585,https://www.ti.com/lit/ds/symlink/thvd1400.pdf,THVD1420DRLR
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Collated Components:,,,,,,,,,,
+,,,,,,,,,,
+Item,Qty,Qty*6,Bought,Reference(s),Value,MP,LibPart,Footprint,Datasheet,MP
+1,5,30,100,"C1, C4, C5, C6, C7",100nF,CL05A104KA5NNNC ,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf,CL05A104KA5NNNC 
+2,1,6,10,C2,47uF,GRM188R60J476ME15D,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf,GRM188R60J476ME15D
+3,1,6,10,C3,10uF,GRM188R6YA106MA73D,Device:C_Small,Capacitor_SMD:C_0603_1608Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01.pdf,GRM188R6YA106MA73D
+4,2,12,12,"C8, C9",100uF,EEE-FN1E101UP,Device:C_Polarized_Small_US,O32controller:CAP_EEEFN1E101UP,https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UP/11656944,EEE-FN1E101UP
+5,1,6,10,C10,1uF,GCM155C71A105KE38D,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&cvid=20200508021757000000,GCM155C71A105KE38D
+6,5,30,100,"C11, C18, C19, C20, C21",1nF,CC0402MRX7R9BB102,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf,CC0402MRX7R9BB102
+7,3,18,100,"C12, C14, C16",10nF,CL05B103KB5NNNC,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf,CL05B103KB5NNNC
+8,3,18,50,"C13, C15, C17",4.7nF,GRM155R72A472KA01D,Device:C_Small,Capacitor_SMD:C_0402_1005Metric,https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R72A472KA01-01.pdf,GRM155R72A472KA01D
+9,3,18,20,"D1, D5, D6",SDM2U30CSP,SDM2U30CSP,Device:D_Schottky_Small,O32controller:SDM2U30CSP-7,https://www.diodes.com/assets/Datasheets/SDM2U30CSP.pdf,SDM2U30CSP
+10,1,6,10,D2,ESDA17P20-1F2 ,ESDA17P20-1F2,Device:D_TVS,Diode_SMD:D_0402_CSP,https://www.st.com/resource/en/datasheet/esda17p20-1f2.pdf,ESDA17P20-1F2
+11,1,6,10,D3,RED,150060RS55040,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060RS55040.pdf,150060RS55040
+12,1,6,10,D4,GREEN,150060VS55040,Device:LED,LED_SMD:LED_0603_1608Metric,https://www.we-online.com/katalog/datasheet/150060VS55040.pdf,150060VS55040
+13,1,6,10,J1,SWD,SM04B-SRSS-TB(LF)(SN),O32controller:JST_SM04B-SRSS-TB(LF)(SN),O32controller:JST_SM04B-SRSS-TB(LF)(SN),https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/,SM04B-SRSS-TB(LF)(SN)
+15,1,6,sample 10,J9,I2C/RS485_1,SM02B-SRSS-TB_LF__SN_,:JST_SM02B-SRSS-TB(LF)(SN)_1,O32controller:JST_SM02B-SRSS-TB(LF)(SN),https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/,SM02B-SRSS-TB_LF__SN_
+16,1,6,sample 10,J12,I2C/RS485_2,SM02B-SRSS-TB_LF__SN_,O32controller:JST_SM02B-SRSS-TB(LF)(SN),O32controller:JST_SM02B-SRSS-TB(LF)(SN),https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/,SM02B-SRSS-TB_LF__SN_
+17,1,6,10,L1,22uH,VLS201612CX-220M-1 ,Device:L_Small,O32controller:IND_VLS201612CX-220M-1,https://www.digikey.com/en/products/detail/tdk-corporation/VLS201612CX-220M-1/5169767,VLS201612CX-220M-1 
+19,3,18,20,"Q1, Q2, Q3",CSD88584Q5DCT,CSD88584Q5DCT,O32controller:CSD88584Q5DCT,O32controller:CSD88584Q5DCT,https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf,CSD88584Q5DCT
+20,3,18,25,"R1, R5, R9",WSLF25122L000FEB 0.002R,WSLF25122L000FEB 0.002R,O32controller:WFCP06124L000FE66,Resistor_SMD:R_Shunt_2512_6332Metric,https://www.vishay.com/docs/30193/wslf.pdf,WSLF25122L000FEB 0.002R
+21,6,36,100,"R2, R3, R6, R7, R10, R11",1.78k,RC0402FR-071K78L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071K78L 
+22,3,18,100,"R4, R8, R12",13.7k,RC0402FR-0713K7L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0713K7L 
+23,6,36,100,"R13, R15, R16, R18, R19, R21",10R,RCS040210R0FKED ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.vishay.com/docs/20065/rcse3.pdf,RCS040210R0FKED 
+24,3,18,100,"R14, R17, R20",2.2k,RC0402FR-072K2L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-072K2L 
+25,1,6,10,R22,121k,RC0402FR-07121KL ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-07121KL 
+26,3,18,20,"R23, R24, R25",2.2R,SG73P1EWTTP2R20F ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP2R20F/14316750,SG73P1EWTTP2R20F 
+27,1,6,10,R26,41.2k,RC0402FR-0741K2L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0741K2L 
+28,1,6,100,R27,10k,RC0402FR-0710KL ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0710KL 
+29,2,12,100,"R28, R29",1k,RC0402FR-071KL ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-071KL 
+30,6,36,100,"R30, R31, R32, R33, R34, R35",27.4k,RC0402FR-0727K4L ,Device:R_Small_US,Resistor_SMD:R_0402_1005Metric,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf,RC0402FR-0727K4L 
+31,1,6,10,SW1,RESET,EVQ-P7A01P ,Switch:SW_Push,O32controller:Tactile_Switch_EVQ-P7A01P,https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447,EVQ-P7A01P 
+32,1,6,sample 10,U1,MA702GQ-P,MA702GQ-P,O32controller:MA702GQ-P,O32controller:MA702GQ-P,https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA702GQ-Z/document_id/3561/,MA702GQ-P
+33,1,6,10,U2,STSPIN32F0A,STSPIN32F0A,O32controller:STSPIN32F0A,O32controller:VFQFPN-48-1EP_7x7mm_P0.5mm_EP2.8x2.8mm,https://www.st.com/en/motor-drivers/stspin32f0a.html#overview,STSPIN32F0A
+34,1,6,sample 5,U3,THVD1420DRLR,THVD1420DRLR,O32controller:THVD1420DRLR,O32controller:THVD1420DRLR_SOT-585,https://www.ti.com/lit/ds/symlink/thvd1400.pdf,THVD1420DRLR

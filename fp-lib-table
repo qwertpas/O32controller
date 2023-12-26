@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "O32controller")(type "KiCad")(uri "${KIPRJMOD}/O32controller.pretty")(options "")(descr ""))
-)
