@@ -451,7 +451,7 @@
       "step": "O32controller.step",
       "vrml": ""
     },
-    "page_layout_descr_file": "${KICAD_USER_TEMPLATE_DIR}/100x100.kicad_wks"
+    "page_layout_descr_file": "100x100.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
