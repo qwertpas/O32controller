@@ -1,4 +1,4 @@
-35663314529022
+40774067424288
 O32controller
 CAP_EEEFN1E101UP
 
@@ -20,6 +20,13 @@ DIODFN100X60X43-2N
 0
 2
 2
+O32controller
+FFC_0.5mm_6p
+
+
+0
+6
+6
 O32controller
 IND_VLS201612CX-220M-1
 
@@ -63,6 +70,13 @@ RESC2550X76N
 2
 2
 O32controller
+R_2512_6332Metric
+Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+O32controller
 R_Shunt_2512_6332Metric
 Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
@@ -80,6 +94,13 @@ O32controller
 SMT2_0P91X0P63_STM-L
 
 ESDA17P20-1F2 
+0
+2
+2
+O32controller
+SolderNTC-1.27mm
+
+
 0
 2
 2

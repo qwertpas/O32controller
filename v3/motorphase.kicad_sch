@@ -8,6 +8,7 @@
     (title "Ø32 BLDC Motor Controller")
     (date "2023-12-26")
     (rev "3")
+    (company "Christopher Xu")
   )
 
   (lib_symbols

@@ -513,6 +513,10 @@
     [
       "d1474dce-644b-4913-80b1-6962d0581a1a",
       "Motor phase W"
+    ],
+    [
+      "6a911bdc-93ed-479b-b25c-589e022a0ce9",
+      "Bus Capacitors"
     ]
   ],
   "text_variables": {}
