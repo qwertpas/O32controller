@@ -812,7 +812,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 146.05 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07586ee8-5ac9-45cf-8632-be3ea971fa36)
-    (property "Reference" "R2" (at 146.05 106.68 90)
+    (property "Reference" "R15" (at 146.05 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.78k" (at 146.05 109.22 90)
@@ -827,18 +827,18 @@
     (property "MP" "RC0402FR-071K78L " (at 146.05 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6dcf8875-2a74-4d8d-b240-07fc95bb4f47))
-    (pin "2" (uuid 0190ba89-c902-46d0-8193-0d74588533b1))
+    (pin "1" (uuid 60cf42fa-63f5-4b8e-939e-400cac0d8134))
+    (pin "2" (uuid c8fb4430-236e-490c-bf2b-b6d9e59a07a6))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R2") (unit 1)
+          (reference "R15") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R6") (unit 1)
+          (reference "R24") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R10") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -847,7 +847,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 97.79 80.01 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 157228ad-39ff-4960-bebd-2b7a7e8e0cf5)
-    (property "Reference" "R15" (at 97.79 74.93 90)
+    (property "Reference" "R13" (at 97.79 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 97.79 77.47 90)
@@ -862,18 +862,18 @@
     (property "MP" "RCS040210R0FKED " (at 97.79 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 07d312f6-1044-43c5-b50d-0673d0b13861))
-    (pin "2" (uuid 072c8587-f30d-439d-951a-f455a970fee3))
+    (pin "1" (uuid 1b25377f-188e-4e58-b235-e6a60d9e9471))
+    (pin "2" (uuid 666ec318-7ed2-4829-936f-1bd27ee9aa77))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R15") (unit 1)
+          (reference "R13") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R18") (unit 1)
+          (reference "R22") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R21") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -882,7 +882,7 @@
   (symbol (lib_id "power:VBUS") (at 128.27 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 192b804b-ab76-4909-a5f6-bb41483ad137)
-    (property "Reference" "#PWR0102" (at 128.27 55.88 0)
+    (property "Reference" "#PWR037" (at 128.27 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 128.27 46.99 0)
@@ -894,17 +894,17 @@
     (property "Datasheet" "" (at 128.27 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 77ab58a3-6047-433d-8ab0-d35d59ec20fc))
+    (pin "1" (uuid 0b00ab6e-d351-4ae2-a01e-a444973830ae))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -913,7 +913,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 146.05 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dc0362a-2019-452e-8829-c688c9b4e4a8)
-    (property "Reference" "R23" (at 148.59 77.47 0)
+    (property "Reference" "R12" (at 148.59 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2R" (at 148.59 80.01 0)
@@ -928,18 +928,18 @@
     (property "MP" "SG73P1EWTTP2R20F " (at 146.05 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b2c7795-543d-410a-813c-46b86b914db9))
-    (pin "2" (uuid 7f3d4925-d4ca-49ab-8775-83c993e4797f))
+    (pin "1" (uuid eaac2122-5fbb-4b5e-aaf0-780b234d5f1e))
+    (pin "2" (uuid 407a71d7-f333-4418-b219-d027e8df1231))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R23") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R24") (unit 1)
+          (reference "R21") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R25") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -948,7 +948,7 @@
   (symbol (lib_id "power:GND") (at 128.27 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22177384-6a8e-4d1d-b10b-611c4f96ce38)
-    (property "Reference" "#PWR018" (at 128.27 144.78 0)
+    (property "Reference" "#PWR041" (at 128.27 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 143.51 0)
@@ -960,17 +960,17 @@
     (property "Datasheet" "" (at 128.27 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75013a38-e6fe-4073-bb68-01171851155d))
+    (pin "1" (uuid 2d98be14-bfd8-464b-8fad-ef8d496c3ecc))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -991,8 +991,8 @@
     (property "Datasheet" "~" (at 133.35 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cff7d89d-fd9f-4447-a4e7-8b2b468fc3a5))
-    (pin "2" (uuid d976faad-6a1f-4214-8f43-9a91d873a212))
+    (pin "1" (uuid 42b8de10-207c-44d4-80ff-8080acdd7d35))
+    (pin "2" (uuid 4d7b7933-b315-4454-a3f4-3b0d11b4c045))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
@@ -1026,18 +1026,18 @@
     (property "MP" "GRM155R72A472KA01D" (at 146.05 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a1ab784-3d79-4bd7-985b-4c64099093b6))
-    (pin "2" (uuid 91d3a88d-0b6e-4a2e-992b-505de8521d20))
+    (pin "1" (uuid 459ea22d-82e6-4c1c-8bce-a674f2d86e4e))
+    (pin "2" (uuid adef4178-340c-49c7-a055-470637348ae3))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
           (reference "C13") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "C15") (unit 1)
+          (reference "C16") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "C17") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1046,7 +1046,7 @@
   (symbol (lib_id "power:+3.3V") (at 160.02 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b26f3a2-69fb-4a85-8579-6b65604a2d85)
-    (property "Reference" "#PWR0128" (at 160.02 102.87 0)
+    (property "Reference" "#PWR039" (at 160.02 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 160.02 95.25 0)
@@ -1058,17 +1058,17 @@
     (property "Datasheet" "" (at 160.02 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c8b1a6fd-292a-4866-9a32-40c424cdf723))
+    (pin "1" (uuid baf9424b-b2b2-4906-9569-cf0f824a59d9))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1092,18 +1092,18 @@
     (property "MP" "CL05B103KB5NNNC" (at 71.12 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd0db1fb-bef6-4aaa-9e8e-db7a85013690))
-    (pin "2" (uuid 8090fa80-67a0-4c64-a303-896038ac6fd2))
+    (pin "1" (uuid 733117d2-108e-48eb-84ee-ea25165bceed))
+    (pin "2" (uuid fecdb667-f940-4795-81c8-ff5f52ad21f7))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
           (reference "C12") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "C14") (unit 1)
+          (reference "C15") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "C16") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -1112,7 +1112,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 160.02 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67ee3f96-d25c-43db-9cf5-51ea755d244e)
-    (property "Reference" "R30" (at 163.83 100.33 0)
+    (property "Reference" "R14" (at 163.83 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27.4k" (at 163.83 102.87 0)
@@ -1127,18 +1127,18 @@
     (property "MP" "RC0402FR-0727K4L " (at 160.02 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8193d894-5a03-437a-a375-1ef67e4ffb47))
-    (pin "2" (uuid fadcd976-459f-4cee-b262-8caea881b9bf))
+    (pin "1" (uuid bda19d3e-e952-4f31-8547-8501ea7aa3cb))
+    (pin "2" (uuid 05a83176-14d0-4856-8275-dc8aebcfb05c))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R30") (unit 1)
+          (reference "R14") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R32") (unit 1)
+          (reference "R23") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R34") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -1147,7 +1147,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 160.02 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74d89d37-d221-4458-8256-13f51361081b)
-    (property "Reference" "R31" (at 163.83 105.41 0)
+    (property "Reference" "R16" (at 163.83 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "27.4k" (at 163.83 107.95 0)
@@ -1162,18 +1162,18 @@
     (property "MP" "RC0402FR-0727K4L " (at 160.02 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0764ce2a-8c0c-4f45-8c9b-257a9d4694ab))
-    (pin "2" (uuid e3c088c1-09c9-46fd-9e06-d0812fbcc525))
+    (pin "1" (uuid fcbc2b3e-47fa-4eb2-9fd1-502ddf4b9ab6))
+    (pin "2" (uuid 0b69dc5d-f3dd-4543-9fdd-66ca902cac44))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R31") (unit 1)
+          (reference "R16") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R33") (unit 1)
+          (reference "R25") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R35") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -1182,7 +1182,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 181.61 123.19 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9e88847-c517-45da-87e3-d6e1447edb04)
-    (property "Reference" "R4" (at 181.61 125.73 90)
+    (property "Reference" "R19" (at 181.61 125.73 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "13.7k" (at 181.61 128.27 90)
@@ -1197,18 +1197,18 @@
     (property "MP" "RC0402FR-0713K7L " (at 181.61 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 285c91aa-d55c-45d4-b54e-2c45d3caca50))
-    (pin "2" (uuid 31d7d525-4d0c-45fd-8ec6-dd9e771da644))
+    (pin "1" (uuid b8021f0d-64f3-442f-9381-4bea97f94608))
+    (pin "2" (uuid c2b6e23e-75db-46eb-bfde-b92790b1e27a))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R4") (unit 1)
+          (reference "R19") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R8") (unit 1)
+          (reference "R28") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R12") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1217,7 +1217,7 @@
   (symbol (lib_id "power:GND") (at 146.05 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b920c9b9-54b2-4691-8f5a-d662529409f2)
-    (property "Reference" "#PWR0115" (at 146.05 88.9 0)
+    (property "Reference" "#PWR038" (at 146.05 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 87.63 0)
@@ -1229,17 +1229,17 @@
     (property "Datasheet" "" (at 146.05 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d46c4ac1-8e93-4054-8ed7-a8cee224623f))
+    (pin "1" (uuid e049c064-bf55-4574-b374-0cad78df3308))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -1248,7 +1248,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 170.18 67.31 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da186033-0cef-4d43-8623-1d62bc379380)
-    (property "Reference" "J4" (at 172.72 66.0399 0)
+    (property "Reference" "J10" (at 172.72 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Motor Connection" (at 172.72 68.5799 0)
@@ -1260,17 +1260,17 @@
     (property "Datasheet" "~" (at 170.18 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f6144f50-b1c2-4782-ad7f-925355629fb7))
+    (pin "1" (uuid a11269c6-43b7-4590-9bb5-4bb825464803))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "J4") (unit 1)
+          (reference "J10") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "J5") (unit 1)
+          (reference "J11") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "J6") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1279,7 +1279,7 @@
   (symbol (lib_id "Device:C_Small") (at 181.61 134.62 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df3e0408-eb90-4826-9e31-7df47eff95be)
-    (property "Reference" "C18" (at 181.61 138.43 90)
+    (property "Reference" "C14" (at 181.61 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1nF" (at 181.61 140.97 90)
@@ -1294,15 +1294,15 @@
     (property "MP" "CC0402MRX7R9BB102" (at 181.61 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28cdb5fc-28f0-4f62-9dd5-6185ef2ff5b6))
-    (pin "2" (uuid e2a4221b-fef9-4c1a-8ba0-5ec807eedeae))
+    (pin "1" (uuid c6308b0b-625b-48c4-ae6f-a2e7998e9ffa))
+    (pin "2" (uuid 161181ee-a4e4-4031-9714-7499eeecbc96))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "C18") (unit 1)
+          (reference "C14") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "C19") (unit 1)
+          (reference "C17") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
           (reference "C20") (unit 1)
@@ -1329,17 +1329,17 @@
     (property "MP" "CSD88584Q5DCT" (at 128.27 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7026c379-bbf1-48cf-ba29-38a784a39a24))
-    (pin "12" (uuid 1c9e7b85-172d-421a-b0a2-4307ccfb18d3))
-    (pin "2" (uuid f8f848ca-2d91-4ec1-9f45-b771a14f0353))
-    (pin "21" (uuid 7dda2fd8-151d-4a54-b63f-b09021100f02))
-    (pin "22" (uuid c303e91e-f551-4226-b12f-9b284f7b6d77))
-    (pin "23" (uuid 9ff300e2-5bc8-47b6-a5eb-d9327109ae68))
-    (pin "24" (uuid 8fc1d0b4-53af-4b6f-be64-c2eec3b2a622))
-    (pin "25" (uuid f8143459-3bb1-45e8-9137-caf4fb9dabea))
-    (pin "26" (uuid 89924141-db67-4d28-b0d5-a7bf06b930d8))
-    (pin "27" (uuid efff4168-7c47-4762-beb3-6ecfa1ae3d24))
-    (pin "3" (uuid a587197c-cb13-4910-bfa1-cf311927c24d))
+    (pin "1" (uuid 916a8ae8-79bb-46fd-9cdf-ec5e7ceaf7d4))
+    (pin "12" (uuid a237ade0-5cf8-4747-a7d2-fe126392e113))
+    (pin "2" (uuid 8f0bac6d-ff3a-4af0-8cab-50a1dde77a56))
+    (pin "21" (uuid c629bb80-af1c-40b2-a618-f1e40c1107e0))
+    (pin "22" (uuid 711760fb-c878-4b8d-b365-cc1efc4a7d1b))
+    (pin "23" (uuid a4a3d617-558f-465e-9e3d-6970cd99871f))
+    (pin "24" (uuid e323d711-7b75-4adb-a16c-2d034b3d5f2c))
+    (pin "25" (uuid cf9d928c-c7d9-4feb-889c-1d775d52b653))
+    (pin "26" (uuid 919aa1c1-ae64-42af-b352-fa7faefa43a3))
+    (pin "27" (uuid eb2486a5-eba4-4900-899d-ebaa3fa14945))
+    (pin "3" (uuid 70c51a89-f05c-421b-831b-569a9be5a312))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
@@ -1358,7 +1358,7 @@
   (symbol (lib_id "O32controller:WFCP06124L000FE66") (at 128.27 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e68edefb-adf8-4027-b434-d78eb63148e3)
-    (property "Reference" "R1" (at 124.46 119.3801 90)
+    (property "Reference" "R18" (at 124.46 119.3801 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "WSLF25122L000FEB 0.002R" (at 124.46 116.8401 90)
@@ -1373,18 +1373,18 @@
     (property "MP" "WSLF25122L000FEB 0.002R" (at 128.27 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e85536d4-edaa-497e-af78-ac10e9cc13a9))
-    (pin "2" (uuid 096f4e86-146a-43c3-bd88-b898b5f34960))
+    (pin "1" (uuid 0ca24072-7663-44e3-b197-ef386333006e))
+    (pin "2" (uuid 4b62af4b-0c40-4363-a0eb-13017ac3a2f0))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R1") (unit 1)
+          (reference "R18") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R5") (unit 1)
+          (reference "R27") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R9") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1393,7 +1393,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 97.79 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f32f29c2-713e-4cce-91ab-53a2a6226992)
-    (property "Reference" "R13" (at 97.79 57.15 90)
+    (property "Reference" "R11" (at 97.79 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 97.79 59.69 90)
@@ -1408,18 +1408,18 @@
     (property "MP" "RCS040210R0FKED " (at 97.79 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ba0f325-5a70-498e-9764-8959c07b5425))
-    (pin "2" (uuid 8ef5930a-fe3c-434c-8bb3-70483c49832f))
+    (pin "1" (uuid 0637aebc-ff43-4d0a-95e3-a83fb63e9efa))
+    (pin "2" (uuid f1ae1c6a-7e12-4ea2-880d-8da56cf851a4))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R13") (unit 1)
+          (reference "R11") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R16") (unit 1)
+          (reference "R20") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R19") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1428,7 +1428,7 @@
   (symbol (lib_id "power:GND") (at 160.02 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f79ee67a-0ede-47e3-9e57-0eea6a49620a)
-    (property "Reference" "#PWR0127" (at 160.02 115.57 0)
+    (property "Reference" "#PWR040" (at 160.02 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 113.03 0)
@@ -1440,17 +1440,17 @@
     (property "Datasheet" "" (at 160.02 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ab4b7df2-a0f2-4691-83fb-fcaacab35182))
+    (pin "1" (uuid 59d1f253-5a20-44dc-bba1-ca0508f6c52f))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -1459,7 +1459,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 146.05 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe67247d-bb00-456c-ba13-28472b911cb5)
-    (property "Reference" "R3" (at 146.05 118.11 90)
+    (property "Reference" "R17" (at 146.05 118.11 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.78k" (at 146.05 120.65 90)
@@ -1474,18 +1474,18 @@
     (property "MP" "RC0402FR-071K78L " (at 146.05 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f952c15b-3df5-4c06-beca-8b880a28f036))
-    (pin "2" (uuid d6ac850d-874e-47ee-8a78-5e6de1ba73e4))
+    (pin "1" (uuid 79bc805a-0b1b-4b68-8adf-f3260d37874c))
+    (pin "2" (uuid fcdb46ff-46e7-45e2-ac54-15daf7c3f162))
     (instances
       (project "O32controller"
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/afcdcb47-145e-4051-91ad-5d7b960fbb25"
-          (reference "R3") (unit 1)
+          (reference "R17") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/801c7eb0-ff7a-4793-a702-7472e29bc37a"
-          (reference "R7") (unit 1)
+          (reference "R26") (unit 1)
         )
         (path "/af2b7c4e-7b6b-40c8-b9a1-0c412d67fa31/d1474dce-644b-4913-80b1-6962d0581a1a"
-          (reference "R11") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
