@@ -2215,7 +2215,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3d3ada7f-a337-41ea-96e2-17e3edd96e0c)
   )
-  (text "36x 22uF\n25V 0805\n103uF at 15V" (at 207.01 35.56 0)
+  (text "37x 22uF\n25V 0805\n106uF at 15V" (at 207.01 35.56 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6708ab02-74ae-47e6-a342-81e26bb4092a)
   )
