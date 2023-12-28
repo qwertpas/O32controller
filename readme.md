@@ -1,4 +1,4 @@
-![threeversions](media/threeversions.png)
+![threeversions](media/three_versions.png)
 
 a brushless DC motor controller that fits behind a small drone motor (mounting holes are 32mm in diameter)
 
