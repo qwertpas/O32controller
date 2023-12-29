@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/christopherxu/KiCad/O32controller/O32controller.kicad_sch</source>
-    <date>Friday, January 06, 2023 at 02:33:27 AM</date>
-    <tool>Eeschema (6.0.7-1)-1</tool>
+    <source>/Users/chris/Kicad/O32controller/v3/O32controller.kicad_sch</source>
+    <date>2023 December 28, Thursday 18:52:34</date>
+    <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date>2022-11-26</date>
+        <title>Ø32 BLDC Motor Controller</title>
+        <company>Christopher Xu</company>
+        <rev>3</rev>
+        <date>2023-12-26</date>
         <source>O32controller.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -24,10 +24,10 @@
     </sheet>
     <sheet number="2" name="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Ø32 BLDC Motor Controller</title>
+        <company>Christopher Xu</company>
+        <rev>3</rev>
+        <date>2023-12-26</date>
         <source>motorphase.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -42,10 +42,10 @@
     </sheet>
     <sheet number="3" name="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Ø32 BLDC Motor Controller</title>
+        <company>Christopher Xu</company>
+        <rev>3</rev>
+        <date>2023-12-26</date>
         <source>motorphase.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -60,11 +60,29 @@
     </sheet>
     <sheet number="4" name="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Ø32 BLDC Motor Controller</title>
+        <company>Christopher Xu</company>
+        <rev>3</rev>
+        <date>2023-12-26</date>
         <source>motorphase.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/">
+      <title_block>
+        <title>Ø32 BLDC Motor Controller</title>
+        <company>Christopher Xu</company>
+        <rev>3</rev>
+        <date>2023-12-26</date>
+        <source>buscaps.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -81,292 +99,396 @@
     <comp ref="C1">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
       <fields>
-        <field name="MP">CL05A104KA5NNNC </field>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05A104KA5NNNC "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7489f7e6-39c2-4d18-a600-d21eb0c0f6b1</tstamps>
+      <tstamps>7b0aea6b-1818-4aa0-9ba6-5330a1bb7546</tstamps>
     </comp>
     <comp ref="C2">
       <value>47uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R60J476ME15-01.pdf</datasheet>
       <fields>
-        <field name="MP">GRM188R60J476ME15D</field>
+        <field name="MPN">GRM188R60J476ME15D</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C140782</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="GRM188R60J476ME15D"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C140782"/>
+      <property name="MPN" value="GRM188R60J476ME15D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2862bbdf-fe1c-4a01-8984-924bcf1454ad</tstamps>
     </comp>
     <comp ref="C3">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA106MA73-01.pdf</datasheet>
       <fields>
-        <field name="MP">GRM188R6YA106MA73D</field>
+        <field name="MPN">GRM188R6YA106MA73D</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C194427</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="GRM188R6YA106MA73D"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C194427"/>
+      <property name="MPN" value="GRM188R6YA106MA73D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8dfabd15-05c6-4f44-a8b3-90d82f861736</tstamps>
     </comp>
     <comp ref="C4">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
       <fields>
-        <field name="MP">CL05A104KA5NNNC </field>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05A104KA5NNNC "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fa9d9255-75aa-471e-9e70-b6b00dc97c28</tstamps>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
       <fields>
-        <field name="MP">CL05A104KA5NNNC </field>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05A104KA5NNNC "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a04a7136-2759-4203-9b89-ffd216db1f36</tstamps>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
       <fields>
-        <field name="MP">CL05A104KA5NNNC </field>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05A104KA5NNNC "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>084926e3-e771-4f89-b563-a0cbef4eb2ad</tstamps>
+      <tstamps>7489f7e6-39c2-4d18-a600-d21eb0c0f6b1</tstamps>
     </comp>
     <comp ref="C7">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05A104KA5NNNC.pdf</datasheet>
-      <fields>
-        <field name="MP">CL05A104KA5NNNC </field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05A104KA5NNNC "/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7b0aea6b-1818-4aa0-9ba6-5330a1bb7546</tstamps>
-    </comp>
-    <comp ref="C8">
-      <value>100uF</value>
-      <footprint>O32controller:CAP_EEEFN1E101UP</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UP/11656944</datasheet>
-      <fields>
-        <field name="MP">EEE-FN1E101UP</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
-      <property name="MP" value="EEE-FN1E101UP"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>36e6bda9-cb29-4bef-ab07-e85bc73b5a65</tstamps>
-    </comp>
-    <comp ref="C9">
-      <value>100uF</value>
-      <footprint>O32controller:CAP_EEEFN1E101UP</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FN1E101UP/11656944</datasheet>
-      <fields>
-        <field name="MP">EEE-FN1E101UP</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized_Small_US" description="Polarized capacitor, small US symbol"/>
-      <property name="MP" value="EEE-FN1E101UP"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>272a8bf9-a172-4380-a2fd-47079f545b7d</tstamps>
-    </comp>
-    <comp ref="C10">
-      <value>1uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&amp;cvid=20200508021757000000</datasheet>
-      <fields>
-        <field name="MP">GCM155C71A105KE38D</field>
-      </fields>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="GCM155C71A105KE38D"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1ed050d1-e541-4038-92eb-e1daf67bc745</tstamps>
-    </comp>
-    <comp ref="C11">
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</datasheet>
       <fields>
-        <field name="MP">CC0402MRX7R9BB102</field>
+        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C527029</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CC0402MRX7R9BB102"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C527029"/>
+      <property name="MPN" value="CC0402MRX7R9BB102"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d9efb151-6df8-4baf-b95f-79e167361fe0</tstamps>
     </comp>
-    <comp ref="C21">
-      <value>1nF</value>
+    <comp ref="C8">
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</datasheet>
       <fields>
-        <field name="MP">CC0402MRX7R9BB102</field>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CC0402MRX7R9BB102"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>49b29a98-5430-499e-8e22-6791111a3971</tstamps>
+      <tstamps>084926e3-e771-4f89-b563-a0cbef4eb2ad</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d24fe645-78d3-4f0c-872e-84105ff87b4e</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>266ade77-a6c1-498c-af68-007eae658226</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">GCM155C71A105KE38D</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C126521</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C126521"/>
+      <property name="MPN" value="GCM155C71A105KE38D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ed050d1-e541-4038-92eb-e1daf67bc745</tstamps>
+    </comp>
+    <comp ref="C58">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C100072</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C100072"/>
+      <property name="MPN" value="CL05A104KA5NNNC "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21632bf4-81a4-4c4a-b1c1-8b60b7f6e5cd</tstamps>
     </comp>
     <comp ref="D1">
       <value>SDM2U30CSP</value>
       <footprint>O32controller:SDM2U30CSP-7</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/SDM2U30CSP.pdf</datasheet>
       <fields>
-        <field name="MP">SDM2U30CSP</field>
+        <field name="MPN">SDM2U30CSP-7</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C3001723</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <property name="MP" value="SDM2U30CSP"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C3001723"/>
+      <property name="MPN" value="SDM2U30CSP-7"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode, small symbol"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ac15b63-91ac-46a9-92b2-a898e36cd177</tstamps>
     </comp>
     <comp ref="D2">
-      <value>ESDA17P20-1F2 </value>
-      <footprint>Diode_SMD:D_0402_CSP</footprint>
+      <value>ESDA17P20-1F2</value>
+      <footprint>O32controller:SMT2_0P91X0P63_STM-L</footprint>
       <datasheet>https://www.st.com/resource/en/datasheet/esda17p20-1f2.pdf</datasheet>
       <fields>
-        <field name="MP">ESDA17P20-1F2</field>
+        <field name="MPN">ESDA17P20-1F2</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C3713569</field>
       </fields>
-      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
-      <property name="MP" value="ESDA17P20-1F2"/>
+      <libsource lib="O32controller" part="ESDA17P20-1F2" description=""/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C3713569"/>
+      <property name="MPN" value="ESDA17P20-1F2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_keywords" value="ESDA17P20-1F2"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>860b5d27-e291-444e-82d2-691ca8e90648</tstamps>
+      <tstamps>29eccf44-e51a-4a36-b46e-f491dfd65acc</tstamps>
     </comp>
     <comp ref="D3">
-      <value>RED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
-      <datasheet>https://www.we-online.com/katalog/datasheet/150060RS55040.pdf</datasheet>
-      <fields>
-        <field name="MP">150060RS55040</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="MP" value="150060RS55040"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f7eead87-8098-4776-8ea9-7000f2ffee76</tstamps>
-    </comp>
-    <comp ref="D4">
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
-      <datasheet>https://www.we-online.com/katalog/datasheet/150060VS55040.pdf</datasheet>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-228/LTST-C191KGKT.PDF</datasheet>
       <fields>
-        <field name="MP">150060VS55040</field>
+        <field name="MPN">LTST-C191KGKT</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C125098</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="MP" value="150060VS55040"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C125098"/>
+      <property name="MPN" value="LTST-C191KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1f514ca6-7f3d-43f6-817b-864427fae1c2</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SDM2U30CSP</value>
+      <footprint>O32controller:SDM2U30CSP-7</footprint>
+      <fields>
+        <field name="MPN">SDM2U30CSP-7</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C3001723</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C3001723"/>
+      <property name="MPN" value="SDM2U30CSP-7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode, small symbol"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89d743f1-98cb-4381-a3b1-c63ade51059c</tstamps>
     </comp>
     <comp ref="D5">
       <value>SDM2U30CSP</value>
       <footprint>O32controller:SDM2U30CSP-7</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/SDM2U30CSP.pdf</datasheet>
       <fields>
-        <field name="MP">SDM2U30CSP</field>
+        <field name="MPN">SDM2U30CSP-7</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C3001723</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <property name="MP" value="SDM2U30CSP"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C3001723"/>
+      <property name="MPN" value="SDM2U30CSP-7"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>89d743f1-98cb-4381-a3b1-c63ade51059c</tstamps>
-    </comp>
-    <comp ref="D6">
-      <value>SDM2U30CSP</value>
-      <footprint>O32controller:SDM2U30CSP-7</footprint>
-      <datasheet>https://www.diodes.com/assets/Datasheets/SDM2U30CSP.pdf</datasheet>
-      <fields>
-        <field name="MP">SDM2U30CSP</field>
-      </fields>
-      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <property name="MP" value="SDM2U30CSP"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode, small symbol"/>
+      <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>058dedb6-95d2-4118-aeb6-b965ba3ec02a</tstamps>
     </comp>
-    <comp ref="J1">
+    <comp ref="D6">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/liteon/LTST-C191KRKT/386837</datasheet>
+      <fields>
+        <field name="MPN">LTST-C191KRKT</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C125099</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C125099"/>
+      <property name="MPN" value="LTST-C191KRKT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7eead87-8098-4776-8ea9-7000f2ffee76</tstamps>
+    </comp>
+    <comp ref="J6">
       <value>SWD</value>
       <footprint>O32controller:JST_SM04B-SRSS-TB(LF)(SN)</footprint>
       <datasheet>https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/</datasheet>
       <fields>
-        <field name="MP">SM04B-SRSS-TB(LF)(SN)</field>
+        <field name="MPN">SM04B-SRSS-TB(LF)(SN)</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C160404</field>
       </fields>
       <libsource lib="O32controller" part="JST_SM04B-SRSS-TB(LF)(SN)" description=""/>
-      <property name="MP" value="SM04B-SRSS-TB(LF)(SN)"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C160404"/>
+      <property name="MPN" value="SM04B-SRSS-TB(LF)(SN)"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c8cbb207-d3b7-446a-841f-ba0e6f46c603</tstamps>
     </comp>
-    <comp ref="J9">
-      <value>I2C/RS485_1</value>
+    <comp ref="J8">
+      <value>RS485</value>
       <footprint>O32controller:JST_SM02B-SRSS-TB(LF)(SN)</footprint>
       <datasheet>https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/</datasheet>
       <fields>
-        <field name="MP">SM02B-SRSS-TB_LF__SN_</field>
+        <field name="MPN">SM02B-SRSS-TB_LF__SN_</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C160402</field>
       </fields>
-      <libsource lib="" part="JST_SM02B-SRSS-TB(LF)(SN)_1" description=""/>
-      <property name="MP" value="SM02B-SRSS-TB_LF__SN_"/>
+      <libsource lib="O32controller" part="JST_SM02B-SRSS-TB(LF)(SN)" description=""/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C160402"/>
+      <property name="MPN" value="SM02B-SRSS-TB_LF__SN_"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b3ae40c8-75ae-41ed-8384-1f06dd1afcdd</tstamps>
     </comp>
-    <comp ref="J12">
-      <value>I2C/RS485_2</value>
+    <comp ref="J9">
+      <value>RS485</value>
       <footprint>O32controller:JST_SM02B-SRSS-TB(LF)(SN)</footprint>
       <datasheet>https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/</datasheet>
       <fields>
-        <field name="MP">SM02B-SRSS-TB_LF__SN_</field>
+        <field name="MPN">SM02B-SRSS-TB_LF__SN_</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C160402</field>
       </fields>
       <libsource lib="O32controller" part="JST_SM02B-SRSS-TB(LF)(SN)" description=""/>
-      <property name="MP" value="SM02B-SRSS-TB_LF__SN_"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C160402"/>
+      <property name="MPN" value="SM02B-SRSS-TB_LF__SN_"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -375,801 +497,1743 @@
     <comp ref="L1">
       <value>22uH</value>
       <footprint>O32controller:IND_VLS201612CX-220M-1</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/tdk-corporation/VLS201612CX-220M-1/5169767</datasheet>
+      <datasheet>https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls201612cx-1_en.pdf</datasheet>
       <fields>
-        <field name="MP">VLS201612CX-220M-1 </field>
+        <field name="MPN">VLS201612CX-220M-1 </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2044426</field>
       </fields>
       <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
-      <property name="MP" value="VLS201612CX-220M-1 "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2044426"/>
+      <property name="MPN" value="VLS201612CX-220M-1 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6c4baef6-fdf2-4afa-9619-12d184d04052</tstamps>
     </comp>
-    <comp ref="R14">
-      <value>2.2k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-072K2L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-072K2L "/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>89795300-6a77-44cc-a4f6-3e13a0648c85</tstamps>
-    </comp>
-    <comp ref="R17">
-      <value>2.2k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-072K2L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-072K2L "/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f1c2f559-65bb-4895-8b41-6a3385712598</tstamps>
-    </comp>
-    <comp ref="R20">
-      <value>2.2k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-072K2L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-072K2L "/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e1ddbfd2-8ccb-4755-8107-2df7967cbf60</tstamps>
-    </comp>
-    <comp ref="R22">
-      <value>121k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-07121KL </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-07121KL "/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1581a28d-a8ef-477b-8e42-b4f1349bf43b</tstamps>
-    </comp>
-    <comp ref="R26">
-      <value>41.2k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-0741K2L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0741K2L "/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>7aa4a3aa-a976-4243-89ad-032634151196</tstamps>
-    </comp>
-    <comp ref="R27">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-0710KL </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0710KL "/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5f0e4cff-1bba-4ca6-b32f-106702a2a089</tstamps>
-    </comp>
-    <comp ref="R28">
+    <comp ref="R1">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-071KL </field>
+        <field name="MPN">RC0402FR-071KL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C106235</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071KL "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C106235"/>
+      <property name="MPN" value="RC0402FR-071KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>adf71e09-57bd-466a-8742-07ba3bc5282d</tstamps>
     </comp>
-    <comp ref="R29">
+    <comp ref="R2">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-071KL </field>
+        <field name="MPN">RC0402FR-071KL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C106235</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071KL "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C106235"/>
+      <property name="MPN" value="RC0402FR-071KL"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2d7abc83-4ef0-42fc-b1b4-3d9d4668cd50</tstamps>
     </comp>
-    <comp ref="SW1">
-      <value>RESET</value>
-      <footprint>O32controller:Tactile_Switch_EVQ-P7A01P</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/panasonic-electronic-components/EVQ-P7A01P/4429447</datasheet>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="MP">EVQ-P7A01P </field>
+        <field name="MPN">RC0402FR-072K2L</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C114762</field>
       </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="MP" value="EVQ-P7A01P "/>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C114762"/>
+      <property name="MPN" value="RC0402FR-072K2L"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d7557ec5-f67e-48f4-82af-05d3fd6c23f3</tstamps>
+      <tstamps>89795300-6a77-44cc-a4f6-3e13a0648c85</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>121k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">AF0402FR-07121KL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C4153138</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C4153138"/>
+      <property name="MPN" value="AF0402FR-07121KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1581a28d-a8ef-477b-8e42-b4f1349bf43b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-072K2L</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C114762</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C114762"/>
+      <property name="MPN" value="RC0402FR-072K2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1c2f559-65bb-4895-8b41-6a3385712598</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-072K2L</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C114762</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C114762"/>
+      <property name="MPN" value="RC0402FR-072K2L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1ddbfd2-8ccb-4755-8107-2df7967cbf60</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-071KL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C106235</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C106235"/>
+      <property name="MPN" value="RC0402FR-071KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dd7e123-4121-42a8-b160-2305e50a4dfa</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>54.9k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0754K9L</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C137959</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C137959"/>
+      <property name="MPN" value="RC0402FR-0754K9L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aa4a3aa-a976-4243-89ad-032634151196</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>13.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C274888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C274888"/>
+      <property name="MPN" value="RC0402FR-0713K7L "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e85302dc-77a2-43cb-b7b6-e5e86e5211da</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>13.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C274888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C274888"/>
+      <property name="MPN" value="RC0402FR-0713K7L "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dedb31d0-746e-4681-9b62-30133e5264aa</tstamps>
     </comp>
     <comp ref="U1">
-      <value>MA702GQ-P</value>
-      <footprint>O32controller:MA702GQ-P</footprint>
-      <datasheet>https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA702GQ-Z/document_id/3561/</datasheet>
-      <fields>
-        <field name="MP">MA702GQ-P</field>
-      </fields>
-      <libsource lib="O32controller" part="MA702GQ-P" description=""/>
-      <property name="MP" value="MA702GQ-P"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>2dec5ad0-ba77-478d-9478-1aceec7b88f6</tstamps>
-    </comp>
-    <comp ref="U2">
-      <value>STSPIN32F0A</value>
+      <value>STSPIN32F0ATR</value>
       <footprint>O32controller:VFQFPN-48-1EP_7x7mm_P0.5mm_EP2.8x2.8mm</footprint>
       <datasheet>https://www.st.com/en/motor-drivers/stspin32f0a.html#overview</datasheet>
       <fields>
-        <field name="MP">STSPIN32F0A</field>
+        <field name="MPN">STSPIN32F0ATR</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2651733</field>
       </fields>
       <libsource lib="O32controller" part="STSPIN32F0A" description="ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48"/>
-      <property name="MP" value="STSPIN32F0A"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2651733"/>
+      <property name="MPN" value="STSPIN32F0ATR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48"/>
+      <property name="ki_keywords" value="ARM Cortex-M0 STM32F0 STM32F0x1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1828f48c-7394-4820-b492-95e405bb2f3e</tstamps>
     </comp>
-    <comp ref="U3">
+    <comp ref="U2">
       <value>THVD1420DRLR</value>
       <footprint>O32controller:THVD1420DRLR_SOT-585</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/thvd1400.pdf</datasheet>
       <fields>
-        <field name="MP">THVD1420DRLR</field>
+        <field name="MPN">THVD1420DRLR</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor#">296-THVD1420DRLRCT-ND</field>
       </fields>
       <libsource lib="O32controller" part="THVD1420DRLR" description=""/>
-      <property name="MP" value="THVD1420DRLR"/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="Vendor#" value="296-THVD1420DRLRCT-ND"/>
+      <property name="MPN" value="THVD1420DRLR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>142662d9-d06c-4314-93de-222df953a6ba</tstamps>
     </comp>
+    <comp ref="U3">
+      <value>MA702GQ-P</value>
+      <footprint>O32controller:MA702GQ-P</footprint>
+      <datasheet>https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA702GQ-Z/document_id/3561/</datasheet>
+      <fields>
+        <field name="MPN">MA702GQ-P</field>
+        <field name="Vendor">MPS</field>
+        <field name="Vendor#">MA702GQ</field>
+      </fields>
+      <libsource lib="O32controller" part="MA702GQ-P" description=""/>
+      <property name="Vendor" value="MPS"/>
+      <property name="Vendor#" value="MA702GQ"/>
+      <property name="MPN" value="MA702GQ-P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dec5ad0-ba77-478d-9478-1aceec7b88f6</tstamps>
+    </comp>
     <comp ref="C12">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf</datasheet>
       <fields>
-        <field name="MP">CL05B103KB5NNNC</field>
+        <field name="MPN">CL05B103KB5NNNC</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05B103KB5NNNC"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C15195"/>
+      <property name="MPN" value="CL05B103KB5NNNC"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
       <tstamps>4f90b257-ebc7-43e8-90a2-515a61d2d0eb</tstamps>
     </comp>
     <comp ref="C13">
       <value>4.7nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R72A472KA01-01.pdf</datasheet>
       <fields>
-        <field name="MP">GRM155R72A472KA01D</field>
+        <field name="MPN">GRM155R72A472KA01D</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C415704</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="GRM155R72A472KA01D"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C415704"/>
+      <property name="MPN" value="GRM155R72A472KA01D"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
       <tstamps>483a8022-02f3-4645-90ed-94b842815429</tstamps>
     </comp>
-    <comp ref="C18">
+    <comp ref="C14">
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</datasheet>
       <fields>
-        <field name="MP">CC0402MRX7R9BB102</field>
+        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C527029</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CC0402MRX7R9BB102"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C527029"/>
+      <property name="MPN" value="CC0402MRX7R9BB102"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
       <tstamps>df3e0408-eb90-4826-9e31-7df47eff95be</tstamps>
     </comp>
-    <comp ref="J4">
-      <value>Motor Connection</value>
-      <footprint>O32controller:SolderWire-Actual_1x01_D1.7mm_OD_2.75mm</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="Motor phase U"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>da186033-0cef-4d43-8623-1d62bc379380</tstamps>
-    </comp>
-    <comp ref="NT1">
-      <value>Sense_N</value>
-      <footprint>NetTie:NetTie-small</footprint>
-      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
-      <property name="Sheetname" value="Motor phase U"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>4ba53449-b73b-4065-96fe-dbac820b11ee</tstamps>
-    </comp>
     <comp ref="Q1">
-      <value>CSD88584Q5DCT</value>
+      <value>CSD88584Q5DC</value>
       <footprint>O32controller:CSD88584Q5DCT</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf</datasheet>
       <fields>
-        <field name="MP">CSD88584Q5DCT</field>
+        <field name="MPN">CSD88584Q5DC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor#">296-48904-1-ND</field>
       </fields>
       <libsource lib="O32controller" part="CSD88584Q5DCT" description=""/>
-      <property name="MP" value="CSD88584Q5DCT"/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="Vendor#" value="296-48904-1-ND"/>
+      <property name="MPN" value="CSD88584Q5DC"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
       <tstamps>e5908c71-7c0e-40c1-9677-f9631b351076</tstamps>
     </comp>
-    <comp ref="R1">
-      <value>WSLF25122L000FEB 0.002R</value>
-      <footprint>Resistor_SMD:R_Shunt_2512_6332Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/30193/wslf.pdf</datasheet>
-      <fields>
-        <field name="MP">WSLF25122L000FEB 0.002R</field>
-      </fields>
-      <libsource lib="O32controller" part="WFCP06124L000FE66" description=""/>
-      <property name="MP" value="WSLF25122L000FEB 0.002R"/>
-      <property name="Sheetname" value="Motor phase U"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>e68edefb-adf8-4027-b434-d78eb63148e3</tstamps>
-    </comp>
-    <comp ref="R2">
-      <value>1.78k</value>
+    <comp ref="R11">
+      <value>10R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-071K78L </field>
+        <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C854481</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071K78L "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C854481"/>
+      <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>07586ee8-5ac9-45cf-8632-be3ea971fa36</tstamps>
+      <tstamps>f32f29c2-713e-4cce-91ab-53a2a6226992</tstamps>
     </comp>
-    <comp ref="R3">
-      <value>1.78k</value>
+    <comp ref="R12">
+      <value>2.2R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-071K78L </field>
+        <field name="MPN">CRCW04022R20JNEDHP</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2079158</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071K78L "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2079158"/>
+      <property name="MPN" value="CRCW04022R20JNEDHP"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>fe67247d-bb00-456c-ba13-28472b911cb5</tstamps>
-    </comp>
-    <comp ref="R4">
-      <value>13.7k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-0713K7L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0713K7L "/>
-      <property name="Sheetname" value="Motor phase U"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>a9e88847-c517-45da-87e3-d6e1447edb04</tstamps>
+      <tstamps>1dc0362a-2019-452e-8829-c688c9b4e4a8</tstamps>
     </comp>
     <comp ref="R13">
       <value>10R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
       <fields>
-        <field name="MP">RCS040210R0FKED </field>
+        <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C854481</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RCS040210R0FKED "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C854481"/>
+      <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>f32f29c2-713e-4cce-91ab-53a2a6226992</tstamps>
-    </comp>
-    <comp ref="R15">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
-      <fields>
-        <field name="MP">RCS040210R0FKED </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RCS040210R0FKED "/>
-      <property name="Sheetname" value="Motor phase U"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
       <tstamps>157228ad-39ff-4960-bebd-2b7a7e8e0cf5</tstamps>
     </comp>
-    <comp ref="R23">
-      <value>2.2R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP2R20F/14316750</datasheet>
-      <fields>
-        <field name="MP">SG73P1EWTTP2R20F </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="SG73P1EWTTP2R20F "/>
-      <property name="Sheetname" value="Motor phase U"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
-      <tstamps>1dc0362a-2019-452e-8829-c688c9b4e4a8</tstamps>
-    </comp>
-    <comp ref="R30">
+    <comp ref="R14">
       <value>27.4k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-0727K4L </field>
+        <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C273730</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0727K4L "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C273730"/>
+      <property name="MPN" value="RC0402FR-0727K4L "/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
       <tstamps>67ee3f96-d25c-43db-9cf5-51ea755d244e</tstamps>
     </comp>
-    <comp ref="R31">
-      <value>27.4k</value>
+    <comp ref="R15">
+      <value>1.78k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-0727K4L </field>
+        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C185450</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0727K4L "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C185450"/>
+      <property name="MPN" value="RC0402FR-071K78L "/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
+      <tstamps>07586ee8-5ac9-45cf-8632-be3ea971fa36</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>27.4k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C273730</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C273730"/>
+      <property name="MPN" value="RC0402FR-0727K4L "/>
+      <property name="Sheetname" value="Motor phase U"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
       <tstamps>74d89d37-d221-4458-8256-13f51361081b</tstamps>
     </comp>
-    <comp ref="C14">
+    <comp ref="R17">
+      <value>1.78k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C185450</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C185450"/>
+      <property name="MPN" value="RC0402FR-071K78L "/>
+      <property name="Sheetname" value="Motor phase U"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
+      <tstamps>fe67247d-bb00-456c-ba13-28472b911cb5</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>PU2512FKMP50R002L</value>
+      <footprint>O32controller:R_Shunt_2512_6332Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-PU2512FKMP50R002L_C2090861.pdf</datasheet>
+      <fields>
+        <field name="MPN">PU2512FKMP50R002L</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2090861</field>
+      </fields>
+      <libsource lib="O32controller" part="WFCP06124L000FE66" description=""/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2090861"/>
+      <property name="MPN" value="PU2512FKMP50R002L"/>
+      <property name="Sheetname" value="Motor phase U"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
+      <tstamps>e68edefb-adf8-4027-b434-d78eb63148e3</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>13.7k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C274888</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C274888"/>
+      <property name="MPN" value="RC0402FR-0713K7L "/>
+      <property name="Sheetname" value="Motor phase U"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
+      <tstamps>a9e88847-c517-45da-87e3-d6e1447edb04</tstamps>
+    </comp>
+    <comp ref="C15">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf</datasheet>
       <fields>
-        <field name="MP">CL05B103KB5NNNC</field>
+        <field name="MPN">CL05B103KB5NNNC</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05B103KB5NNNC"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C15195"/>
+      <property name="MPN" value="CL05B103KB5NNNC"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
       <tstamps>4f90b257-ebc7-43e8-90a2-515a61d2d0eb</tstamps>
     </comp>
-    <comp ref="C15">
+    <comp ref="C16">
       <value>4.7nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R72A472KA01-01.pdf</datasheet>
       <fields>
-        <field name="MP">GRM155R72A472KA01D</field>
+        <field name="MPN">GRM155R72A472KA01D</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C415704</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="GRM155R72A472KA01D"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C415704"/>
+      <property name="MPN" value="GRM155R72A472KA01D"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
       <tstamps>483a8022-02f3-4645-90ed-94b842815429</tstamps>
     </comp>
-    <comp ref="C19">
+    <comp ref="C17">
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</datasheet>
       <fields>
-        <field name="MP">CC0402MRX7R9BB102</field>
+        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C527029</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CC0402MRX7R9BB102"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C527029"/>
+      <property name="MPN" value="CC0402MRX7R9BB102"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
       <tstamps>df3e0408-eb90-4826-9e31-7df47eff95be</tstamps>
     </comp>
-    <comp ref="J5">
-      <value>Motor Connection</value>
-      <footprint>O32controller:SolderWire-Actual_1x01_D1.7mm_OD_2.75mm</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>da186033-0cef-4d43-8623-1d62bc379380</tstamps>
-    </comp>
-    <comp ref="NT2">
-      <value>Sense_N</value>
-      <footprint>NetTie:NetTie-small</footprint>
-      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>4ba53449-b73b-4065-96fe-dbac820b11ee</tstamps>
-    </comp>
     <comp ref="Q2">
-      <value>CSD88584Q5DCT</value>
+      <value>CSD88584Q5DC</value>
       <footprint>O32controller:CSD88584Q5DCT</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf</datasheet>
       <fields>
-        <field name="MP">CSD88584Q5DCT</field>
+        <field name="MPN">CSD88584Q5DC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor#">296-48904-1-ND</field>
       </fields>
       <libsource lib="O32controller" part="CSD88584Q5DCT" description=""/>
-      <property name="MP" value="CSD88584Q5DCT"/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="Vendor#" value="296-48904-1-ND"/>
+      <property name="MPN" value="CSD88584Q5DC"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
       <tstamps>e5908c71-7c0e-40c1-9677-f9631b351076</tstamps>
     </comp>
-    <comp ref="R5">
-      <value>WSLF25122L000FEB 0.002R</value>
-      <footprint>Resistor_SMD:R_Shunt_2512_6332Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/30193/wslf.pdf</datasheet>
+    <comp ref="R20">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="MP">WSLF25122L000FEB 0.002R</field>
+        <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C854481</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C854481"/>
+      <property name="MPN" value="SR0402FR-7T10RL"/>
+      <property name="Sheetname" value="Motor phase V"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
+      <tstamps>f32f29c2-713e-4cce-91ab-53a2a6226992</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>2.2R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW04022R20JNEDHP</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2079158</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2079158"/>
+      <property name="MPN" value="CRCW04022R20JNEDHP"/>
+      <property name="Sheetname" value="Motor phase V"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
+      <tstamps>1dc0362a-2019-452e-8829-c688c9b4e4a8</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C854481</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C854481"/>
+      <property name="MPN" value="SR0402FR-7T10RL"/>
+      <property name="Sheetname" value="Motor phase V"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
+      <tstamps>157228ad-39ff-4960-bebd-2b7a7e8e0cf5</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>27.4k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C273730</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C273730"/>
+      <property name="MPN" value="RC0402FR-0727K4L "/>
+      <property name="Sheetname" value="Motor phase V"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
+      <tstamps>67ee3f96-d25c-43db-9cf5-51ea755d244e</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1.78k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C185450</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C185450"/>
+      <property name="MPN" value="RC0402FR-071K78L "/>
+      <property name="Sheetname" value="Motor phase V"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
+      <tstamps>07586ee8-5ac9-45cf-8632-be3ea971fa36</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>27.4k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C273730</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C273730"/>
+      <property name="MPN" value="RC0402FR-0727K4L "/>
+      <property name="Sheetname" value="Motor phase V"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
+      <tstamps>74d89d37-d221-4458-8256-13f51361081b</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>1.78k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C185450</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C185450"/>
+      <property name="MPN" value="RC0402FR-071K78L "/>
+      <property name="Sheetname" value="Motor phase V"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
+      <tstamps>fe67247d-bb00-456c-ba13-28472b911cb5</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>PU2512FKMP50R002L</value>
+      <footprint>O32controller:R_Shunt_2512_6332Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-PU2512FKMP50R002L_C2090861.pdf</datasheet>
+      <fields>
+        <field name="MPN">PU2512FKMP50R002L</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2090861</field>
       </fields>
       <libsource lib="O32controller" part="WFCP06124L000FE66" description=""/>
-      <property name="MP" value="WSLF25122L000FEB 0.002R"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2090861"/>
+      <property name="MPN" value="PU2512FKMP50R002L"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
       <tstamps>e68edefb-adf8-4027-b434-d78eb63148e3</tstamps>
     </comp>
-    <comp ref="R6">
-      <value>1.78k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-071K78L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071K78L "/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>07586ee8-5ac9-45cf-8632-be3ea971fa36</tstamps>
-    </comp>
-    <comp ref="R7">
-      <value>1.78k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-071K78L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071K78L "/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>fe67247d-bb00-456c-ba13-28472b911cb5</tstamps>
-    </comp>
-    <comp ref="R8">
+    <comp ref="R28">
       <value>13.7k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-0713K7L </field>
+        <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C274888</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0713K7L "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C274888"/>
+      <property name="MPN" value="RC0402FR-0713K7L "/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
       <tstamps>a9e88847-c517-45da-87e3-d6e1447edb04</tstamps>
     </comp>
-    <comp ref="R16">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
-      <fields>
-        <field name="MP">RCS040210R0FKED </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RCS040210R0FKED "/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>f32f29c2-713e-4cce-91ab-53a2a6226992</tstamps>
-    </comp>
-    <comp ref="R18">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
-      <fields>
-        <field name="MP">RCS040210R0FKED </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RCS040210R0FKED "/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>157228ad-39ff-4960-bebd-2b7a7e8e0cf5</tstamps>
-    </comp>
-    <comp ref="R24">
-      <value>2.2R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP2R20F/14316750</datasheet>
-      <fields>
-        <field name="MP">SG73P1EWTTP2R20F </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="SG73P1EWTTP2R20F "/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>1dc0362a-2019-452e-8829-c688c9b4e4a8</tstamps>
-    </comp>
-    <comp ref="R32">
-      <value>27.4k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-0727K4L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0727K4L "/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>67ee3f96-d25c-43db-9cf5-51ea755d244e</tstamps>
-    </comp>
-    <comp ref="R33">
-      <value>27.4k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-0727K4L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0727K4L "/>
-      <property name="Sheetname" value="Motor phase V"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
-      <tstamps>74d89d37-d221-4458-8256-13f51361081b</tstamps>
-    </comp>
-    <comp ref="C16">
+    <comp ref="C18">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL05B103KB5NNN_Spec.pdf</datasheet>
       <fields>
-        <field name="MP">CL05B103KB5NNNC</field>
+        <field name="MPN">CL05B103KB5NNNC</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C15195</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CL05B103KB5NNNC"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C15195"/>
+      <property name="MPN" value="CL05B103KB5NNNC"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
       <tstamps>4f90b257-ebc7-43e8-90a2-515a61d2d0eb</tstamps>
     </comp>
-    <comp ref="C17">
+    <comp ref="C19">
       <value>4.7nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R72A472KA01-01.pdf</datasheet>
       <fields>
-        <field name="MP">GRM155R72A472KA01D</field>
+        <field name="MPN">GRM155R72A472KA01D</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C415704</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="GRM155R72A472KA01D"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C415704"/>
+      <property name="MPN" value="GRM155R72A472KA01D"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
       <tstamps>483a8022-02f3-4645-90ed-94b842815429</tstamps>
     </comp>
     <comp ref="C20">
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_22.pdf</datasheet>
       <fields>
-        <field name="MP">CC0402MRX7R9BB102</field>
+        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C527029</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="MP" value="CC0402MRX7R9BB102"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C527029"/>
+      <property name="MPN" value="CC0402MRX7R9BB102"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
       <tstamps>df3e0408-eb90-4826-9e31-7df47eff95be</tstamps>
     </comp>
-    <comp ref="J6">
-      <value>Motor Connection</value>
-      <footprint>O32controller:SolderWire-Actual_1x01_D1.7mm_OD_2.75mm</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>da186033-0cef-4d43-8623-1d62bc379380</tstamps>
-    </comp>
-    <comp ref="NT3">
-      <value>Sense_N</value>
-      <footprint>NetTie:NetTie-small</footprint>
-      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>4ba53449-b73b-4065-96fe-dbac820b11ee</tstamps>
-    </comp>
     <comp ref="Q3">
-      <value>CSD88584Q5DCT</value>
+      <value>CSD88584Q5DC</value>
       <footprint>O32controller:CSD88584Q5DCT</footprint>
       <datasheet>https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf</datasheet>
       <fields>
-        <field name="MP">CSD88584Q5DCT</field>
+        <field name="MPN">CSD88584Q5DC</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor#">296-48904-1-ND</field>
       </fields>
       <libsource lib="O32controller" part="CSD88584Q5DCT" description=""/>
-      <property name="MP" value="CSD88584Q5DCT"/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="Vendor#" value="296-48904-1-ND"/>
+      <property name="MPN" value="CSD88584Q5DC"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
       <tstamps>e5908c71-7c0e-40c1-9677-f9631b351076</tstamps>
     </comp>
-    <comp ref="R9">
-      <value>WSLF25122L000FEB 0.002R</value>
-      <footprint>Resistor_SMD:R_Shunt_2512_6332Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/30193/wslf.pdf</datasheet>
+    <comp ref="R29">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="MP">WSLF25122L000FEB 0.002R</field>
+        <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C854481</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C854481"/>
+      <property name="MPN" value="SR0402FR-7T10RL"/>
+      <property name="Sheetname" value="Motor phase W"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
+      <tstamps>f32f29c2-713e-4cce-91ab-53a2a6226992</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>2.2R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW04022R20JNEDHP</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2079158</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2079158"/>
+      <property name="MPN" value="CRCW04022R20JNEDHP"/>
+      <property name="Sheetname" value="Motor phase W"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
+      <tstamps>1dc0362a-2019-452e-8829-c688c9b4e4a8</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>10R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C854481</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C854481"/>
+      <property name="MPN" value="SR0402FR-7T10RL"/>
+      <property name="Sheetname" value="Motor phase W"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
+      <tstamps>157228ad-39ff-4960-bebd-2b7a7e8e0cf5</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>27.4k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C273730</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C273730"/>
+      <property name="MPN" value="RC0402FR-0727K4L "/>
+      <property name="Sheetname" value="Motor phase W"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
+      <tstamps>67ee3f96-d25c-43db-9cf5-51ea755d244e</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1.78k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C185450</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C185450"/>
+      <property name="MPN" value="RC0402FR-071K78L "/>
+      <property name="Sheetname" value="Motor phase W"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
+      <tstamps>07586ee8-5ac9-45cf-8632-be3ea971fa36</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>27.4k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C273730</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C273730"/>
+      <property name="MPN" value="RC0402FR-0727K4L "/>
+      <property name="Sheetname" value="Motor phase W"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
+      <tstamps>74d89d37-d221-4458-8256-13f51361081b</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>1.78k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <fields>
+        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C185450</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C185450"/>
+      <property name="MPN" value="RC0402FR-071K78L "/>
+      <property name="Sheetname" value="Motor phase W"/>
+      <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
+      <tstamps>fe67247d-bb00-456c-ba13-28472b911cb5</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>PU2512FKMP50R002L</value>
+      <footprint>O32controller:R_Shunt_2512_6332Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-PU2512FKMP50R002L_C2090861.pdf</datasheet>
+      <fields>
+        <field name="MPN">PU2512FKMP50R002L</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C2090861</field>
       </fields>
       <libsource lib="O32controller" part="WFCP06124L000FE66" description=""/>
-      <property name="MP" value="WSLF25122L000FEB 0.002R"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C2090861"/>
+      <property name="MPN" value="PU2512FKMP50R002L"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
       <tstamps>e68edefb-adf8-4027-b434-d78eb63148e3</tstamps>
     </comp>
-    <comp ref="R10">
-      <value>1.78k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-071K78L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071K78L "/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>07586ee8-5ac9-45cf-8632-be3ea971fa36</tstamps>
-    </comp>
-    <comp ref="R11">
-      <value>1.78k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
-      <fields>
-        <field name="MP">RC0402FR-071K78L </field>
-      </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-071K78L "/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>fe67247d-bb00-456c-ba13-28472b911cb5</tstamps>
-    </comp>
-    <comp ref="R12">
+    <comp ref="R37">
       <value>13.7k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
       <fields>
-        <field name="MP">RC0402FR-0713K7L </field>
+        <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C274888</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0713K7L "/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C274888"/>
+      <property name="MPN" value="RC0402FR-0713K7L "/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
       <tstamps>a9e88847-c517-45da-87e3-d6e1447edb04</tstamps>
     </comp>
-    <comp ref="R19">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
+    <comp ref="C21">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
       <fields>
-        <field name="MP">RCS040210R0FKED </field>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
       </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RCS040210R0FKED "/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>f32f29c2-713e-4cce-91ab-53a2a6226992</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>57e57ded-b7f4-416c-866c-a22962c6a3b3</tstamps>
     </comp>
-    <comp ref="R21">
-      <value>10R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.vishay.com/docs/20065/rcse3.pdf</datasheet>
+    <comp ref="C22">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
       <fields>
-        <field name="MP">RCS040210R0FKED </field>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
       </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RCS040210R0FKED "/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>157228ad-39ff-4960-bebd-2b7a7e8e0cf5</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>3594c4a7-22eb-4832-9696-639195921dff</tstamps>
     </comp>
-    <comp ref="R25">
-      <value>2.2R</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73P1EWTTP2R20F/14316750</datasheet>
+    <comp ref="C23">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
       <fields>
-        <field name="MP">SG73P1EWTTP2R20F </field>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
       </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="SG73P1EWTTP2R20F "/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>1dc0362a-2019-452e-8829-c688c9b4e4a8</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>82779c61-4b4a-4f74-b4f5-454b99082e0f</tstamps>
     </comp>
-    <comp ref="R34">
-      <value>27.4k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+    <comp ref="C24">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
       <fields>
-        <field name="MP">RC0402FR-0727K4L </field>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
       </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0727K4L "/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>67ee3f96-d25c-43db-9cf5-51ea755d244e</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>a7a44bdb-0a92-41f5-8b2c-d2df17389f0d</tstamps>
     </comp>
-    <comp ref="R35">
-      <value>27.4k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf</datasheet>
+    <comp ref="C25">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
       <fields>
-        <field name="MP">RC0402FR-0727K4L </field>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
       </fields>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <property name="MP" value="RC0402FR-0727K4L "/>
-      <property name="Sheetname" value="Motor phase W"/>
-      <property name="Sheetfile" value="motorphase.kicad_sch"/>
-      <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
-      <tstamps>74d89d37-d221-4458-8256-13f51361081b</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>fa47b472-30ad-495c-a016-f82e297aec8e</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>380e5f07-d272-4c8d-a2cb-4333915fe34b</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>f32bd52d-1a46-42c8-b89f-b71ece2f7121</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>5a4dbf64-bf80-4a33-86a9-48695108eb47</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>b46f5c75-78d2-4260-b7f6-77f9b0874dcc</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>8666cf6c-2998-45c0-a85e-7fa003ce4569</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>a45c05d2-f674-439d-bda4-b38c75119c54</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>e9fea857-582d-4872-aa30-b74ab9b4af40</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>8241283d-963c-4d1f-a4b7-1f77ecc7fd39</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>b7037093-3056-4422-a224-b8f9371d6210</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>2ad1cf42-acdf-4a8d-aa33-741c4686a9c4</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>5c474eeb-c727-41bb-9983-b108d3056d19</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>e10d5f99-6f65-4a4e-b317-8e66b41f97c2</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>9a26220e-efd9-4d6c-850d-1e9c7e3b5976</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>bf6ea11b-95a0-42ea-b764-ddb7d39abd73</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>b2cb9ab0-ba8a-40e7-bb8b-b5eee8b22106</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>ea4658ff-4e30-4215-ad99-436cf45be263</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>58d1846e-8204-42c3-a4ed-d0ed4e56f7b0</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>cc9c6c0e-0ae0-4b70-82bb-1c09a1122e53</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>122101d5-a61b-4d08-b906-23cb462bc413</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>76facd8a-0070-416b-9caa-6220c9095e55</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>6f9444d7-d7ad-4c0c-ac44-8c6816f848e7</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>19723682-35bd-4bb1-a4a2-b4aaebf45e86</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>53f36de5-011f-429e-b397-f9e3a33c55d0</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>2b1e0cb7-d4e7-479e-8af0-5c6a34b38d53</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>e0c7e985-8c62-47f6-8d37-5601be0fff0e</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>48a754cc-cb9f-452c-9fe2-a83d4127fd00</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>1603c53e-ace8-4462-8fca-616eaaf6c78b</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>f2778075-c780-4c34-8df6-c236ef7b88f9</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>486ada2b-5e6e-42a5-b597-490e51b7b712</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>434a086c-3848-4916-b027-5b02ea0799c3</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>36f1994e-dc92-4be8-b5d2-992455d17715</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>22uF</value>
+      <footprint>O32controller:C_0805_nosilk</footprint>
+      <fields>
+        <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C45783"/>
+      <property name="MPN" value="CL21A226MAQNNNE"/>
+      <property name="Sheetname" value="Bus Capacitors"/>
+      <property name="Sheetfile" value="buscaps.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Bus Capacitors/" tstamps="/6a911bdc-93ed-479b-b25c-589e022a0ce9/"/>
+      <tstamps>ce7b022a-7993-4d54-a5e0-eb0a0d2b475a</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="JST_SM02B-SRSS-TB(LF)(SN)_1">
-      <docs>https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/</docs>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">JST_SM02B-SRSS-TB(LF)(SN)_1</field>
-        <field name="Footprint">O32controller:JST_SM02B-SRSS-TB(LF)(SN)</field>
-        <field name="Datasheet">https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/</field>
-        <field name="MP">SM02B-SRSS-TB_LF__SN_</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="bidirectional"/>
-        <pin num="2" name="2" type="bidirectional"/>
-        <pin num="S1" name="Shield" type="power_in"/>
-        <pin num="S2" name="Shield" type="power_in"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Pin">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="TestPoint">
@@ -1201,22 +2265,6 @@
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="C_Polarized_Small_US">
-      <description>Polarized capacitor, small US symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Polarized_Small_US</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C_Small">
@@ -1252,25 +2300,6 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="D_TVS">
-      <description>Bidirectional transient-voltage-suppression diode</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_TVS</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A1" type="passive"/>
-        <pin num="2" name="A2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="LED">
@@ -1365,6 +2394,24 @@
         <pin num="25" name="NC" type="no_connect"/>
         <pin num="26" name="NC" type="no_connect"/>
         <pin num="27" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="O32controller" part="ESDA17P20-1F2">
+      <docs>ESDA17P20-1F2</docs>
+      <footprints>
+        <fp>SMT2_0P91X0P63_STM</fp>
+        <fp>SMT2_0P91X0P63_STM-M</fp>
+        <fp>SMT2_0P91X0P63_STM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR</field>
+        <field name="Value">ESDA17P20-1F2</field>
+        <field name="Footprint">O32controller:SMT2_0P91X0P63_STM</field>
+        <field name="Datasheet">ESDA17P20-1F2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="O32controller" part="JST_SM02B-SRSS-TB(LF)(SN)">
@@ -1528,19 +2575,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Switch" part="SW_Push">
-      <description>Push button switch, generic, two pins</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_Push</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -1553,442 +2587,506 @@
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="O32controller">
-      <uri>/Users/christopherxu/KiCad/O32controller/O32controller.kicad_sym</uri>
-    </library>
-    <library logical="Switch">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+      <uri>/Users/chris/Kicad/O32controller/v3/O32controller.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3V">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="1" pintype="passive"/>
-      <node ref="R22" pin="1" pintype="passive"/>
-      <node ref="R28" pin="2" pintype="passive"/>
-      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
       <node ref="R32" pin="2" pintype="passive"/>
-      <node ref="R34" pin="2" pintype="passive"/>
-      <node ref="U1" pin="13" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U2" pin="10" pinfunction="VDDA" pintype="power_in"/>
-      <node ref="U2" pin="48" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="2" name="/BUS_SENSE">
-      <node ref="C21" pin="1" pintype="passive"/>
-      <node ref="R26" pin="2" pintype="passive"/>
-      <node ref="R27" pin="1" pintype="passive"/>
-      <node ref="U2" pin="15" pinfunction="PA4" pintype="bidirectional"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PA4" pintype="bidirectional"/>
     </net>
     <net code="3" name="/Green_Cathode">
-      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
     <net code="4" name="/HSU">
-      <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="U2" pin="33" pinfunction="HSU" pintype="output"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="HSU" pintype="output"/>
     </net>
     <net code="5" name="/HSV">
-      <node ref="R16" pin="1" pintype="passive"/>
-      <node ref="U2" pin="29" pinfunction="HSV" pintype="output"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="HSV" pintype="output"/>
     </net>
     <net code="6" name="/HSW">
-      <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="U2" pin="25" pinfunction="HSW" pintype="output"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="HSW" pintype="output"/>
     </net>
     <net code="7" name="/LED_STATUS">
-      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="U2" pin="4" pinfunction="PF0" pintype="bidirectional"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PF0" pintype="bidirectional"/>
     </net>
     <net code="8" name="/LSU">
-      <node ref="R15" pin="2" pintype="passive"/>
-      <node ref="U2" pin="36" pinfunction="LSU" pintype="output"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="LSU" pintype="output"/>
     </net>
     <net code="9" name="/LSV">
-      <node ref="R18" pin="2" pintype="passive"/>
-      <node ref="U2" pin="32" pinfunction="LSV" pintype="output"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="LSV" pintype="output"/>
     </net>
     <net code="10" name="/LSW">
-      <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="U2" pin="28" pinfunction="LSW" pintype="output"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="LSW" pintype="output"/>
     </net>
     <net code="11" name="/Motor phase U/GH_MOS">
       <node ref="Q1" pin="1" pinfunction="GH" pintype="input"/>
-      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
     </net>
     <net code="12" name="/Motor phase U/GL_MOS">
       <node ref="Q1" pin="22" pinfunction="GL" pintype="input"/>
-      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
     </net>
     <net code="13" name="/Motor phase U/Motor">
       <node ref="C13" pin="1" pintype="passive"/>
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="VSW" pintype="output"/>
     </net>
     <net code="14" name="/Motor phase U/SENSE_P">
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="Q1" pin="12" pinfunction="PGND" pintype="power_out"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
     </net>
     <net code="15" name="/Motor phase U/Sense_N">
-      <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
     </net>
     <net code="16" name="/Motor phase V/GH_MOS">
       <node ref="Q2" pin="1" pinfunction="GH" pintype="input"/>
-      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
     </net>
     <net code="17" name="/Motor phase V/GL_MOS">
       <node ref="Q2" pin="22" pinfunction="GL" pintype="input"/>
-      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
     </net>
     <net code="18" name="/Motor phase V/Motor">
-      <node ref="C15" pin="1" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="VSW" pintype="output"/>
     </net>
     <net code="19" name="/Motor phase V/SENSE_P">
-      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
       <node ref="Q2" pin="12" pinfunction="PGND" pintype="power_out"/>
-      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
     </net>
     <net code="20" name="/Motor phase V/Sense_N">
-      <node ref="NT2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
     </net>
     <net code="21" name="/Motor phase W/GH_MOS">
       <node ref="Q3" pin="1" pinfunction="GH" pintype="input"/>
-      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
     </net>
     <net code="22" name="/Motor phase W/GL_MOS">
       <node ref="Q3" pin="22" pinfunction="GL" pintype="input"/>
-      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
     </net>
     <net code="23" name="/Motor phase W/Motor">
-      <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="VSW" pintype="output"/>
     </net>
     <net code="24" name="/Motor phase W/SENSE_P">
-      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
       <node ref="Q3" pin="12" pinfunction="PGND" pintype="power_out"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R20" pin="2" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
     </net>
     <net code="25" name="/Motor phase W/Sense_N">
-      <node ref="NT3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
     </net>
     <net code="26" name="/NRST">
-      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U2" pin="7" pinfunction="NRST" pintype="input"/>
+      <node ref="C58" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="27" name="/OC_COMP">
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="R17" pin="1" pintype="passive"/>
-      <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="R22" pin="2" pintype="passive"/>
-      <node ref="U2" pin="24" pinfunction="OC_COMP" pintype="input"/>
-    </net>
-    <net code="28" name="/OP_U_N">
-      <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U2" pin="22" pinfunction="OP1N" pintype="input"/>
-    </net>
-    <net code="29" name="/OP_U_O">
-      <node ref="C18" pin="2" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="U2" pin="19" pinfunction="PB1" pintype="bidirectional"/>
-      <node ref="U2" pin="21" pinfunction="OP1O" pintype="output"/>
-    </net>
-    <net code="30" name="/OP_U_P">
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="R30" pin="1" pintype="passive"/>
-      <node ref="R31" pin="2" pintype="passive"/>
-      <node ref="U2" pin="23" pinfunction="OP1P" pintype="input"/>
-    </net>
-    <net code="31" name="/OP_V_N">
-      <node ref="C19" pin="1" pintype="passive"/>
+    <net code="27" name="/NTC_IN">
+      <node ref="C9" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U2" pin="2" pinfunction="OP2N" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/OP_V_O">
-      <node ref="C19" pin="2" pintype="passive"/>
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="U2" pin="11" pinfunction="PA0" pintype="bidirectional"/>
-      <node ref="U2" pin="3" pinfunction="OP2O" pintype="output"/>
+    <net code="28" name="/OC_COMP">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="OC_COMP" pintype="input"/>
     </net>
-    <net code="33" name="/OP_V_P">
+    <net code="29" name="/OP_U_N">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="OP1N" pintype="input"/>
+    </net>
+    <net code="30" name="/OP_U_O">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="PB1" pintype="bidirectional"/>
+      <node ref="U1" pin="21" pinfunction="OP1O" pintype="output"/>
+    </net>
+    <net code="31" name="/OP_U_P">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="OP1P" pintype="input"/>
+    </net>
+    <net code="32" name="/OP_V_N">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OP2N" pintype="input"/>
+    </net>
+    <net code="33" name="/OP_V_O">
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PA0" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="OP2O" pintype="output"/>
+    </net>
+    <net code="34" name="/OP_V_P">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OP2P" pintype="input"/>
+    </net>
+    <net code="35" name="/OP_W_N">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="OP3N" pintype="input"/>
+    </net>
+    <net code="36" name="/OP_W_O">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PA3" pintype="bidirectional"/>
+      <node ref="U1" pin="47" pinfunction="OP3O" pintype="output"/>
+    </net>
+    <net code="37" name="/OP_W_P">
       <node ref="R32" pin="1" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U2" pin="1" pinfunction="OP2P" pintype="input"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="OP3P" pintype="input"/>
     </net>
-    <net code="34" name="/OP_W_N">
-      <node ref="C20" pin="1" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="U2" pin="46" pinfunction="OP3N" pintype="input"/>
-    </net>
-    <net code="35" name="/OP_W_O">
-      <node ref="C20" pin="2" pintype="passive"/>
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="U2" pin="14" pinfunction="PA3" pintype="bidirectional"/>
-      <node ref="U2" pin="47" pinfunction="OP3O" pintype="output"/>
-    </net>
-    <net code="36" name="/OP_W_P">
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R34" pin="1" pintype="passive"/>
-      <node ref="R35" pin="2" pintype="passive"/>
-      <node ref="U2" pin="45" pinfunction="OP3P" pintype="input"/>
-    </net>
-    <net code="37" name="/OUTU">
+    <net code="38" name="/OUTU">
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="SH" pintype="output"/>
-      <node ref="U2" pin="34" pinfunction="OUTU" pintype="input"/>
+      <node ref="U1" pin="34" pinfunction="OUTU" pintype="input"/>
     </net>
-    <net code="38" name="/OUTV">
+    <net code="39" name="/OUTV">
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="SH" pintype="output"/>
-      <node ref="U2" pin="30" pinfunction="OUTV" pintype="input"/>
+      <node ref="U1" pin="30" pinfunction="OUTV" pintype="input"/>
     </net>
-    <net code="39" name="/OUTW">
-      <node ref="C6" pin="2" pintype="passive"/>
+    <net code="40" name="/OUTW">
+      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="SH" pintype="output"/>
-      <node ref="U2" pin="26" pinfunction="OUTW" pintype="input"/>
+      <node ref="U1" pin="26" pinfunction="OUTW" pintype="input"/>
     </net>
-    <net code="40" name="/RS485_A">
-      <node ref="J12" pin="1" pinfunction="1" pintype="bidirectional"/>
+    <net code="41" name="/RS485_A">
+      <node ref="J8" pin="1" pinfunction="1" pintype="bidirectional"/>
       <node ref="J9" pin="1" pinfunction="1" pintype="bidirectional"/>
-      <node ref="U3" pin="6" pinfunction="A" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="41" name="/RS485_B">
-      <node ref="J12" pin="2" pinfunction="2" pintype="bidirectional"/>
+    <net code="42" name="/RS485_B">
+      <node ref="J8" pin="2" pinfunction="2" pintype="bidirectional"/>
       <node ref="J9" pin="2" pinfunction="2" pintype="bidirectional"/>
-      <node ref="U3" pin="7" pinfunction="B" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="42" name="/Red_Anode">
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R28" pin="1" pintype="passive"/>
+    <net code="43" name="/Red_Anode">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="43" name="/SPI_MISO">
-      <node ref="U1" pin="7" pinfunction="MISO" pintype="output"/>
-      <node ref="U2" pin="17" pinfunction="PA6" pintype="bidirectional"/>
+    <net code="44" name="/SPI_MISO">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U3" pin="7" pinfunction="MISO" pintype="output"/>
     </net>
-    <net code="44" name="/SPI_MOSI">
-      <node ref="U1" pin="4" pinfunction="MOSI" pintype="input"/>
-      <node ref="U2" pin="18" pinfunction="PA7" pintype="bidirectional"/>
+    <net code="45" name="/SPI_MOSI">
+      <node ref="U1" pin="18" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="MOSI" pintype="input"/>
     </net>
-    <net code="45" name="/SPI_SCLK">
-      <node ref="U1" pin="12" pinfunction="SCLK" pintype="input"/>
-      <node ref="U2" pin="16" pinfunction="PA5" pintype="bidirectional"/>
+    <net code="46" name="/SPI_SCLK">
+      <node ref="U1" pin="16" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="U3" pin="12" pinfunction="SCLK" pintype="input"/>
     </net>
-    <net code="46" name="/SW_3.3">
+    <net code="47" name="/SW_3.3">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
-      <node ref="U2" pin="9" pinfunction="SW" pintype="output"/>
+      <node ref="U1" pin="9" pinfunction="SW" pintype="output"/>
     </net>
-    <net code="47" name="/USART_DE">
-      <node ref="U2" pin="12" pinfunction="PA1" pintype="bidirectional"/>
-      <node ref="U3" pin="2" pinfunction="~{RE}" pintype="input"/>
-      <node ref="U3" pin="3" pinfunction="DE" pintype="input"/>
+    <net code="48" name="/USART_DE">
+      <node ref="U1" pin="12" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="DE" pintype="input"/>
     </net>
-    <net code="48" name="/USART_RX">
-      <node ref="U2" pin="39" pinfunction="PA15" pintype="bidirectional"/>
-      <node ref="U3" pin="1" pinfunction="R" pintype="output"/>
+    <net code="49" name="/USART_RX">
+      <node ref="U1" pin="41" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="R" pintype="output"/>
     </net>
-    <net code="49" name="/VBOOTU">
+    <net code="50" name="/VBOOTU">
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="U2" pin="35" pinfunction="VBOOTU" pintype="power_out"/>
+      <node ref="U1" pin="35" pinfunction="VBOOTU" pintype="power_out"/>
     </net>
-    <net code="50" name="/VBOOTV">
+    <net code="51" name="/VBOOTV">
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="U2" pin="31" pinfunction="VBOOTV" pintype="power_out"/>
+      <node ref="U1" pin="31" pinfunction="VBOOTV" pintype="power_out"/>
     </net>
-    <net code="51" name="/VBOOTW">
-      <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="U2" pin="27" pinfunction="VBOOTW" pintype="power_out"/>
+    <net code="52" name="/VBOOTW">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="VBOOTW" pintype="power_out"/>
     </net>
-    <net code="52" name="/~{MAG_CS}">
-      <node ref="U1" pin="5" pinfunction="CS" pintype="input"/>
-      <node ref="U2" pin="5" pinfunction="PF1" pintype="bidirectional"/>
+    <net code="53" name="/~{MAG1_CS}">
+      <node ref="U1" pin="5" pinfunction="PF1" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="CS" pintype="input"/>
     </net>
-    <net code="53" name="GND">
+    <net code="54" name="/~{MAG2_CS}">
+      <node ref="U1" pin="39" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="A1" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J1" pin="S2" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J12" pin="S1" pinfunction="Shield" pintype="power_in"/>
-      <node ref="J12" pin="S2" pinfunction="Shield" pintype="power_in"/>
+      <node ref="D2" pin="2" pintype="unspecified"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J8" pin="S1" pinfunction="Shield" pintype="power_in"/>
+      <node ref="J8" pin="S2" pinfunction="Shield" pintype="power_in"/>
       <node ref="J9" pin="S1" pinfunction="Shield" pintype="power_in"/>
       <node ref="J9" pin="S2" pinfunction="Shield" pintype="power_in"/>
-      <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="NT2" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="NT3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="R23" pin="2" pintype="passive"/>
-      <node ref="R24" pin="2" pintype="passive"/>
-      <node ref="R25" pin="2" pintype="passive"/>
-      <node ref="R27" pin="2" pintype="passive"/>
-      <node ref="R29" pin="2" pintype="passive"/>
-      <node ref="R31" pin="1" pintype="passive"/>
-      <node ref="R33" pin="1" pintype="passive"/>
-      <node ref="R35" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="10" pinfunction="TEST" pintype="input"/>
-      <node ref="U1" pin="15" pinfunction="SSCK" pintype="input"/>
-      <node ref="U1" pin="17" pinfunction="PAD" pintype="power_in"/>
-      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="20" pinfunction="TESTMODE" pintype="input"/>
-      <node ref="U2" pin="42" pinfunction="BOOT0" pintype="input"/>
-      <node ref="U2" pin="44" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="49" pinfunction="EPAD" pintype="power_in"/>
-      <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
-    </net>
-    <net code="54" name="I2C_SCL">
-      <node ref="U2" pin="40" pinfunction="PB6" pintype="bidirectional"/>
-    </net>
-    <net code="55" name="I2C_SDA">
-      <node ref="U2" pin="41" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U1" pin="20" pinfunction="TESTMODE" pintype="input"/>
+      <node ref="U1" pin="42" pinfunction="BOOT0" pintype="input"/>
+      <node ref="U1" pin="44" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="49" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="TEST" pintype="input"/>
+      <node ref="U3" pin="15" pinfunction="SSCK" pintype="input"/>
+      <node ref="U3" pin="17" pinfunction="PAD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
     </net>
     <net code="56" name="Net-(C13-Pad2)">
       <node ref="C13" pin="2" pintype="passive"/>
-      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(C15-Pad2)">
-      <node ref="C15" pin="2" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
+    <net code="57" name="Net-(C16-Pad2)">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
+    <net code="58" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
     </net>
     <net code="59" name="SWD_CLK">
-      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="U2" pin="38" pinfunction="PA14_SWD_CLK" pintype="bidirectional"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PA14_SWD_CLK" pintype="bidirectional"/>
     </net>
     <net code="60" name="SWD_IO">
-      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U2" pin="37" pinfunction="PA13_SWD_IO" pintype="bidirectional"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PA13_SWD_IO" pintype="bidirectional"/>
     </net>
     <net code="61" name="USART_TX">
-      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U2" pin="13" pinfunction="PA2" pintype="bidirectional"/>
-      <node ref="U3" pin="4" pinfunction="D" pintype="input"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="D" pintype="input"/>
     </net>
     <net code="62" name="VBUS">
       <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pintype="unspecified"/>
       <node ref="Q1" pin="27" pinfunction="VIN" pintype="power_in"/>
       <node ref="Q2" pin="27" pinfunction="VIN" pintype="power_in"/>
       <node ref="Q3" pin="27" pinfunction="VIN" pintype="power_in"/>
-      <node ref="R26" pin="1" pintype="passive"/>
-      <node ref="U2" pin="6" pinfunction="VREG12" pintype="power_in"/>
-      <node ref="U2" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VREG12" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VM" pintype="power_in"/>
     </net>
-    <net code="63" name="unconnected-(Q1-Pad21)">
+    <net code="63" name="unconnected-(Q1-NC-Pad21)">
       <node ref="Q1" pin="21" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="64" name="unconnected-(Q1-Pad23)">
+    <net code="64" name="unconnected-(Q1-NC-Pad23)">
       <node ref="Q1" pin="23" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="65" name="unconnected-(Q1-Pad24)">
+    <net code="65" name="unconnected-(Q1-NC-Pad24)">
       <node ref="Q1" pin="24" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="66" name="unconnected-(Q1-Pad25)">
+    <net code="66" name="unconnected-(Q1-NC-Pad25)">
       <node ref="Q1" pin="25" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="67" name="unconnected-(Q1-Pad26)">
+    <net code="67" name="unconnected-(Q1-NC-Pad26)">
       <node ref="Q1" pin="26" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="68" name="unconnected-(Q2-Pad21)">
+    <net code="68" name="unconnected-(Q2-NC-Pad21)">
       <node ref="Q2" pin="21" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="69" name="unconnected-(Q2-Pad23)">
+    <net code="69" name="unconnected-(Q2-NC-Pad23)">
       <node ref="Q2" pin="23" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="70" name="unconnected-(Q2-Pad24)">
+    <net code="70" name="unconnected-(Q2-NC-Pad24)">
       <node ref="Q2" pin="24" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="71" name="unconnected-(Q2-Pad25)">
+    <net code="71" name="unconnected-(Q2-NC-Pad25)">
       <node ref="Q2" pin="25" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="72" name="unconnected-(Q2-Pad26)">
+    <net code="72" name="unconnected-(Q2-NC-Pad26)">
       <node ref="Q2" pin="26" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="73" name="unconnected-(Q3-Pad21)">
+    <net code="73" name="unconnected-(Q3-NC-Pad21)">
       <node ref="Q3" pin="21" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="74" name="unconnected-(Q3-Pad23)">
+    <net code="74" name="unconnected-(Q3-NC-Pad23)">
       <node ref="Q3" pin="23" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="75" name="unconnected-(Q3-Pad24)">
+    <net code="75" name="unconnected-(Q3-NC-Pad24)">
       <node ref="Q3" pin="24" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="76" name="unconnected-(Q3-Pad25)">
+    <net code="76" name="unconnected-(Q3-NC-Pad25)">
       <node ref="Q3" pin="25" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="77" name="unconnected-(Q3-Pad26)">
+    <net code="77" name="unconnected-(Q3-NC-Pad26)">
       <node ref="Q3" pin="26" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U1-Pad1)">
-      <node ref="U1" pin="1" pinfunction="SSD" pintype="output+no_connect"/>
+    <net code="78" name="unconnected-(U1-RESERVED-Pad43)">
+      <node ref="U1" pin="43" pinfunction="RESERVED" pintype="no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U1-Pad2)">
-      <node ref="U1" pin="2" pinfunction="A" pintype="output+no_connect"/>
+    <net code="79" name="unconnected-(U3-A-Pad2)">
+      <node ref="U3" pin="2" pinfunction="A" pintype="output+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U1-Pad3)">
-      <node ref="U1" pin="3" pinfunction="Z" pintype="output+no_connect"/>
+    <net code="80" name="unconnected-(U3-B-Pad6)">
+      <node ref="U3" pin="6" pinfunction="B" pintype="output+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U1-Pad6)">
-      <node ref="U1" pin="6" pinfunction="B" pintype="output+no_connect"/>
+    <net code="81" name="unconnected-(U3-MGH-Pad16)">
+      <node ref="U3" pin="16" pinfunction="MGH" pintype="output+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U1-Pad9)">
-      <node ref="U1" pin="9" pinfunction="PWM" pintype="output+no_connect"/>
+    <net code="82" name="unconnected-(U3-MGL-Pad11)">
+      <node ref="U3" pin="11" pinfunction="MGL" pintype="output+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U1-Pad11)">
-      <node ref="U1" pin="11" pinfunction="MGL" pintype="output+no_connect"/>
+    <net code="83" name="unconnected-(U3-NC-Pad14)">
+      <node ref="U3" pin="14" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U1-Pad14)">
-      <node ref="U1" pin="14" pinfunction="NC" pintype="no_connect"/>
+    <net code="84" name="unconnected-(U3-PWM-Pad9)">
+      <node ref="U3" pin="9" pinfunction="PWM" pintype="output+no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U1-Pad16)">
-      <node ref="U1" pin="16" pinfunction="MGH" pintype="output+no_connect"/>
+    <net code="85" name="unconnected-(U3-SSD-Pad1)">
+      <node ref="U3" pin="1" pinfunction="SSD" pintype="output+no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U2-Pad43)">
-      <node ref="U2" pin="43" pinfunction="RESERVED" pintype="no_connect"/>
+    <net code="86" name="unconnected-(U3-Z-Pad3)">
+      <node ref="U3" pin="3" pinfunction="Z" pintype="output+no_connect"/>
     </net>
   </nets>
 </export>
