@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "O32controller")(type "KiCad")(uri "${KIPRJMOD}/O32controller.kicad_sym")(options "")(descr ""))
+)
