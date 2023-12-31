@@ -1,4 +1,4 @@
-22252279388596332
+22253995343935000
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64975,6 +64975,13 @@ Tactile_Switch_EVQ-P7A01P
 2
 O32controller
 TestPoint_Pad_Rect
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+O32controller
+TestPoint_Pad_Square
 SMD pad as test Point, diameter 1.0mm
 test point SMD pad
 0
