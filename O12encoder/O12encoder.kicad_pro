@@ -445,7 +445,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "O12encoder.step",
       "vrml": ""
     },
     "page_layout_descr_file": "100x100.kicad_wks"
