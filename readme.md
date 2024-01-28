@@ -1,4 +1,4 @@
-![BR2304](media/O32_BR2304.jpeg)
+![BR2304](media/O32v3.JPG)
 ![threeversions](media/three_versions.png)
 
 Small robots often use servos or small brushed DC motors, but they are not as power dense as the brushless DC (BLDC) motors commonly found in drones. Called the Ø32 because the M2 mounting holes are on a 32mm diameter circle, this project controls 7-15V motors with accurate position feedback and field-oriented control (FOC), while fitting almost completely behind a 2304 or larger drone motor.
