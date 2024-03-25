@@ -2254,8 +2254,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 83aeee78-1b5b-4383-b420-50d751bd18e8)
   )
-  (text "with the 100mA comparator setting\n121k limits transient current to 60A."
-    (at 247.65 115.57 0)
+  (text "with the 100mV comparator setting\n121k limits transient current to 120A.\nhttps://www.desmos.com/calculator/e2f5kgx2vw"
+    (at 236.22 116.84 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8df88721-a9b0-4500-943a-3ba6acd7cf56)
   )
