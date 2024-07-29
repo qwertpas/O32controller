@@ -1,4 +1,4 @@
-22252303113048459
+22259241613236104
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50729,6 +50729,13 @@ MesurementPoint Square SMDPad 1mmx2mm
 1
 1
 Connector_Wire
+SolderWirePad_1x01_SMD_2x4mm
+Wire Pad, Square, SMD Pad,  1mm x 2mm,
+MesurementPoint Square SMDPad 1mmx2mm 
+0
+1
+1
+Connector_Wire
 SolderWirePad_1x01_SMD_5x10mm
 Wire Pad, Square, SMD Pad,  5mm x 10mm,
 MesurementPoint Square SMDPad 5mmx10mm 
@@ -64882,6 +64889,27 @@ net tie
 0
 3
 2
+O32controller
+QFN-16_MA732
+
+MA732GQ-Z 
+0
+17
+17
+O32controller
+QFN-16_MA732-L
+
+MA732GQ-Z 
+0
+17
+17
+O32controller
+QFN-16_MA732-M
+
+MA732GQ-Z 
+0
+17
+17
 O32controller
 RESC2550X76N
 
