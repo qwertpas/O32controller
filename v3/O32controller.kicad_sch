@@ -4427,7 +4427,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x01_Pin") (at 31.75 185.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa4b06d0-499a-4db8-b4fa-a4b73aa77d87)
     (property "Reference" "J13" (at 32.385 180.34 0)
       (effects (font (size 1.27 1.27)))
@@ -5300,7 +5300,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 31.75 170.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8c9215f-cae7-46fb-a930-1c7346756040)
     (property "Reference" "J7" (at 32.385 162.56 0)
       (effects (font (size 1.27 1.27)))

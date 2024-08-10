@@ -13,6 +13,7 @@ Specs:
 - 3 shunt current sensing and overcurrent protection 
 - 2x 2-pin JST-SH connectors for RS-485 communication, allowing daisy chaining
 - 1x 4-pin JST-SH connector for SWD programming/debug and UART_TX output
+- FOC capable
 
 Critical components:
 - STSPIN32F0A BLDC gate driver and Cortex-M0 MCU
@@ -24,6 +25,12 @@ More info on Hackaday.io: https://hackaday.io/project/189115-32-bldc-controller
 
 Firmware here: https://github.com/qwertpas/O32controller_FW
 
+Changelog from v3 to v3.1:
+- Larger 15V TVS diode D2 (SMF15A) because there is space 
+- Changed R4 from 121kΩ to 33kΩ for a more reasonable phase current limit of 43A using the 100mV comparator 
+- Replaced external SPI pads with UART and GPIO PA15 pads for direct communication with another microcontroller without need for RS485 transceiver 
+- Replace MA702 (12-bit magnetic encoder) with MA732 (14-bit, adjustable filter)
+- Picked out parts in stock from LCSC as much as possible
 
 Changelog from v2 to v3:
 - Fixed TVS diode direction on VBUS (!!)

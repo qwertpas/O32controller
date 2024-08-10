@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/Users/chris/Kicad/O32controller/v3/O32controller.kicad_sch</source>
-    <date>2024 July 28, Sunday 18:12:43</date>
+    <date>2024 August 09, Friday 21:10:42</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Ø32 BLDC Motor Controller</title>
         <company>Christopher Xu</company>
-        <rev>3</rev>
-        <date>2023-12-26</date>
+        <rev>3.1</rev>
+        <date>2024-08-09</date>
         <source>O32controller.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -26,8 +26,8 @@
       <title_block>
         <title>Ø32 BLDC Motor Controller</title>
         <company>Christopher Xu</company>
-        <rev>3</rev>
-        <date>2023-12-26</date>
+        <rev>3.1</rev>
+        <date>2024-08-09</date>
         <source>motorphase.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -44,8 +44,8 @@
       <title_block>
         <title>Ø32 BLDC Motor Controller</title>
         <company>Christopher Xu</company>
-        <rev>3</rev>
-        <date>2023-12-26</date>
+        <rev>3.1</rev>
+        <date>2024-08-09</date>
         <source>motorphase.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -62,8 +62,8 @@
       <title_block>
         <title>Ø32 BLDC Motor Controller</title>
         <company>Christopher Xu</company>
-        <rev>3</rev>
-        <date>2023-12-26</date>
+        <rev>3.1</rev>
+        <date>2024-08-09</date>
         <source>motorphase.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -80,8 +80,8 @@
       <title_block>
         <title>Ø32 BLDC Motor Controller</title>
         <company>Christopher Xu</company>
-        <rev>3</rev>
-        <date>2023-12-26</date>
+        <rev>3.1</rev>
+        <date>2024-08-09</date>
         <source>buscaps.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -100,16 +100,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -123,6 +125,7 @@
       <fields>
         <field name="LCSC">C140782</field>
         <field name="MPN">GRM188R60J476ME15D</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C140782</field>
       </fields>
@@ -131,6 +134,7 @@
       <property name="Vendor#" value="C140782"/>
       <property name="MPN" value="GRM188R60J476ME15D"/>
       <property name="LCSC" value="C140782"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -144,6 +148,7 @@
       <fields>
         <field name="LCSC">C194427</field>
         <field name="MPN">GRM188R6YA106MA73D</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C194427</field>
       </fields>
@@ -152,6 +157,7 @@
       <property name="Vendor#" value="C194427"/>
       <property name="MPN" value="GRM188R6YA106MA73D"/>
       <property name="LCSC" value="C194427"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -163,16 +169,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -184,16 +192,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -205,16 +215,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -226,16 +238,18 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C527029</field>
-        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="LCSC">C1523</field>
+        <field name="MPN">0402B102K500NT</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C527029</field>
+        <field name="Vendor#">C1523</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C527029"/>
-      <property name="MPN" value="CC0402MRX7R9BB102"/>
-      <property name="LCSC" value="C527029"/>
+      <property name="Vendor#" value="C1523"/>
+      <property name="MPN" value="0402B102K500NT"/>
+      <property name="LCSC" value="C1523"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -247,16 +261,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -268,16 +284,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -289,16 +307,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -310,16 +330,18 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C126521</field>
-        <field name="MPN">GCM155C71A105KE38D</field>
+        <field name="LCSC">C52923</field>
+        <field name="MPN">CL05A105KA5NQNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C126521</field>
+        <field name="Vendor#">C52923</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C126521"/>
-      <property name="MPN" value="GCM155C71A105KE38D"/>
-      <property name="LCSC" value="C126521"/>
+      <property name="Vendor#" value="C52923"/>
+      <property name="MPN" value="CL05A105KA5NQNC"/>
+      <property name="LCSC" value="C52923"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -331,16 +353,18 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C100072</field>
-        <field name="MPN">CL05A104KA5NNNC </field>
+        <field name="LCSC">C307331</field>
+        <field name="MPN">CL05B104KB54PNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C100072</field>
+        <field name="Vendor#">C307331</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C100072"/>
-      <property name="MPN" value="CL05A104KA5NNNC "/>
-      <property name="LCSC" value="C100072"/>
+      <property name="Vendor#" value="C307331"/>
+      <property name="MPN" value="CL05B104KB54PNC"/>
+      <property name="LCSC" value="C307331"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -352,43 +376,23 @@
       <value>SDM2U30CSP</value>
       <footprint>O32controller:SDM2U30CSP-7</footprint>
       <fields>
-        <field name="LCSC">C3001723</field>
         <field name="MPN">SDM2U30CSP-7</field>
-        <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C3001723</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor#">621-SDM2U30CSP-7</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C3001723"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="Vendor#" value="621-SDM2U30CSP-7"/>
       <property name="MPN" value="SDM2U30CSP-7"/>
-      <property name="LCSC" value="C3001723"/>
+      <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Schottky diode, small symbol"/>
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0ac15b63-91ac-46a9-92b2-a898e36cd177</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>ESDA17P20-1F2</value>
-      <footprint>O32controller:SMT2_0P91X0P63_STM-L</footprint>
-      <datasheet>https://www.st.com/resource/en/datasheet/esda17p20-1f2.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C3713569</field>
-        <field name="MPN">ESDA17P20-1F2</field>
-        <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C3713569</field>
-      </fields>
-      <libsource lib="O32controller" part="ESDA17P20-1F2" description=""/>
-      <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C3713569"/>
-      <property name="MPN" value="ESDA17P20-1F2"/>
-      <property name="LCSC" value="C3713569"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="O32controller.kicad_sch"/>
-      <property name="ki_keywords" value="ESDA17P20-1F2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>29eccf44-e51a-4a36-b46e-f491dfd65acc</tstamps>
     </comp>
     <comp ref="D3">
       <value>GREEN</value>
@@ -397,6 +401,7 @@
       <fields>
         <field name="LCSC">C125098</field>
         <field name="MPN">LTST-C191KGKT</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C125098</field>
       </fields>
@@ -405,6 +410,7 @@
       <property name="Vendor#" value="C125098"/>
       <property name="MPN" value="LTST-C191KGKT"/>
       <property name="LCSC" value="C125098"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -416,16 +422,17 @@
       <value>SDM2U30CSP</value>
       <footprint>O32controller:SDM2U30CSP-7</footprint>
       <fields>
-        <field name="LCSC">C3001723</field>
         <field name="MPN">SDM2U30CSP-7</field>
-        <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C3001723</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor#">621-SDM2U30CSP-7</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C3001723"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="Vendor#" value="621-SDM2U30CSP-7"/>
       <property name="MPN" value="SDM2U30CSP-7"/>
-      <property name="LCSC" value="C3001723"/>
+      <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Schottky diode, small symbol"/>
@@ -437,16 +444,17 @@
       <value>SDM2U30CSP</value>
       <footprint>O32controller:SDM2U30CSP-7</footprint>
       <fields>
-        <field name="LCSC">C3001723</field>
         <field name="MPN">SDM2U30CSP-7</field>
-        <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C3001723</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor#">621-SDM2U30CSP-7</field>
       </fields>
       <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
-      <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C3001723"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="Vendor#" value="621-SDM2U30CSP-7"/>
       <property name="MPN" value="SDM2U30CSP-7"/>
-      <property name="LCSC" value="C3001723"/>
+      <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Schottky diode, small symbol"/>
@@ -459,16 +467,18 @@
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/liteon/LTST-C191KRKT/386837</datasheet>
       <fields>
-        <field name="LCSC">C125099</field>
-        <field name="MPN">LTST-C191KRKT</field>
+        <field name="LCSC">C2286</field>
+        <field name="MPN">KT-0603R</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C125099</field>
+        <field name="Vendor#">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C125099"/>
-      <property name="MPN" value="LTST-C191KRKT"/>
-      <property name="LCSC" value="C125099"/>
+      <property name="Vendor#" value="C2286"/>
+      <property name="MPN" value="KT-0603R"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Light emitting diode"/>
@@ -476,21 +486,46 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f7eead87-8098-4776-8ea9-7000f2ffee76</tstamps>
     </comp>
+    <comp ref="D7">
+      <value>SMF15A-TP </value>
+      <footprint>Diode_SMD:D_SMF</footprint>
+      <datasheet>https://www.vishay.com/doc?85881</datasheet>
+      <fields>
+        <field name="LCSC">C914420</field>
+        <field name="MPN">SMF15A-TP</field>
+        <field name="Type">Extended</field>
+        <field name="Vendor">LCSC</field>
+        <field name="Vendor#">C914420</field>
+      </fields>
+      <libsource lib="Diode" part="SMF15A" description="200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"/>
+      <property name="Type" value="Extended"/>
+      <property name="LCSC" value="C914420"/>
+      <property name="MPN" value="SMF15A-TP"/>
+      <property name="Vendor" value="LCSC"/>
+      <property name="Vendor#" value="C914420"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_description" value="200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e5862a1-77d6-4a33-852f-820ceb4ed92e</tstamps>
+    </comp>
     <comp ref="J6">
       <value>SWD</value>
       <footprint>O32controller:JST_SM04B-SRSS-TB(LF)(SN)</footprint>
       <datasheet>https://www.snapeda.com/parts/SM04B-SRSS-TB(LF)(SN)/JST%20Sales/datasheet/</datasheet>
       <fields>
-        <field name="LCSC">C160404</field>
         <field name="MPN">SM04B-SRSS-TB(LF)(SN)</field>
-        <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C160404</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">Digikey</field>
+        <field name="Vendor#">455-SM04B-SRSS-TBCT-ND</field>
       </fields>
       <libsource lib="O32controller" part="JST_SM04B-SRSS-TB(LF)(SN)" description=""/>
-      <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C160404"/>
+      <property name="Vendor" value="Digikey"/>
+      <property name="Vendor#" value="455-SM04B-SRSS-TBCT-ND"/>
       <property name="MPN" value="SM04B-SRSS-TB(LF)(SN)"/>
-      <property name="LCSC" value="C160404"/>
+      <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -503,6 +538,7 @@
       <fields>
         <field name="LCSC">C160402</field>
         <field name="MPN">SM02B-SRSS-TB_LF__SN_</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C160402</field>
       </fields>
@@ -511,6 +547,7 @@
       <property name="Vendor#" value="C160402"/>
       <property name="MPN" value="SM02B-SRSS-TB_LF__SN_"/>
       <property name="LCSC" value="C160402"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -523,6 +560,7 @@
       <fields>
         <field name="LCSC">C160402</field>
         <field name="MPN">SM02B-SRSS-TB_LF__SN_</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C160402</field>
       </fields>
@@ -531,6 +569,7 @@
       <property name="Vendor#" value="C160402"/>
       <property name="MPN" value="SM02B-SRSS-TB_LF__SN_"/>
       <property name="LCSC" value="C160402"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -543,6 +582,7 @@
       <fields>
         <field name="LCSC">C2044426</field>
         <field name="MPN">VLS201612CX-220M-1 </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C2044426</field>
       </fields>
@@ -551,6 +591,7 @@
       <property name="Vendor#" value="C2044426"/>
       <property name="MPN" value="VLS201612CX-220M-1 "/>
       <property name="LCSC" value="C2044426"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Inductor, small symbol"/>
@@ -562,16 +603,18 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C106235</field>
-        <field name="MPN">RC0402FR-071KL</field>
+        <field name="LCSC">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C106235</field>
+        <field name="Vendor#">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C106235"/>
-      <property name="MPN" value="RC0402FR-071KL"/>
-      <property name="LCSC" value="C106235"/>
+      <property name="Vendor#" value="C11702"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -583,16 +626,18 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C106235</field>
-        <field name="MPN">RC0402FR-071KL</field>
+        <field name="LCSC">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C106235</field>
+        <field name="Vendor#">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C106235"/>
-      <property name="MPN" value="RC0402FR-071KL"/>
-      <property name="LCSC" value="C106235"/>
+      <property name="Vendor#" value="C11702"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -604,16 +649,18 @@
       <value>2.2k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C114762</field>
-        <field name="MPN">RC0402FR-072K2L</field>
+        <field name="LCSC">C25879</field>
+        <field name="MPN">0402WGF2201TCE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C114762</field>
+        <field name="Vendor#">C25879</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C114762"/>
-      <property name="MPN" value="RC0402FR-072K2L"/>
-      <property name="LCSC" value="C114762"/>
+      <property name="Vendor#" value="C25879"/>
+      <property name="MPN" value="0402WGF2201TCE"/>
+      <property name="LCSC" value="C25879"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -622,19 +669,21 @@
       <tstamps>89795300-6a77-44cc-a4f6-3e13a0648c85</tstamps>
     </comp>
     <comp ref="R4">
-      <value>121k</value>
+      <value>33k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C4153138</field>
-        <field name="MPN">AF0402FR-07121KL</field>
+        <field name="LCSC">C25779</field>
+        <field name="MPN">0402WGF3302TCE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C4153138</field>
+        <field name="Vendor#">C25779</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C4153138"/>
-      <property name="MPN" value="AF0402FR-07121KL"/>
-      <property name="LCSC" value="C4153138"/>
+      <property name="Vendor#" value="C25779"/>
+      <property name="MPN" value="0402WGF3302TCE"/>
+      <property name="LCSC" value="C25779"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -646,16 +695,18 @@
       <value>2.2k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C114762</field>
-        <field name="MPN">RC0402FR-072K2L</field>
+        <field name="LCSC">C25879</field>
+        <field name="MPN">0402WGF2201TCE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C114762</field>
+        <field name="Vendor#">C25879</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C114762"/>
-      <property name="MPN" value="RC0402FR-072K2L"/>
-      <property name="LCSC" value="C114762"/>
+      <property name="Vendor#" value="C25879"/>
+      <property name="MPN" value="0402WGF2201TCE"/>
+      <property name="LCSC" value="C25879"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -667,16 +718,18 @@
       <value>2.2k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C114762</field>
-        <field name="MPN">RC0402FR-072K2L</field>
+        <field name="LCSC">C25879</field>
+        <field name="MPN">0402WGF2201TCE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C114762</field>
+        <field name="Vendor#">C25879</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C114762"/>
-      <property name="MPN" value="RC0402FR-072K2L"/>
-      <property name="LCSC" value="C114762"/>
+      <property name="Vendor#" value="C25879"/>
+      <property name="MPN" value="0402WGF2201TCE"/>
+      <property name="LCSC" value="C25879"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -688,16 +741,18 @@
       <value>1k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C106235</field>
-        <field name="MPN">RC0402FR-071KL</field>
+        <field name="LCSC">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C106235</field>
+        <field name="Vendor#">C11702</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C106235"/>
-      <property name="MPN" value="RC0402FR-071KL"/>
-      <property name="LCSC" value="C106235"/>
+      <property name="Vendor#" value="C11702"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="LCSC" value="C11702"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -711,6 +766,7 @@
       <fields>
         <field name="LCSC">C137959</field>
         <field name="MPN">RC0402FR-0754K9L</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C137959</field>
       </fields>
@@ -719,6 +775,7 @@
       <property name="Vendor#" value="C137959"/>
       <property name="MPN" value="RC0402FR-0754K9L"/>
       <property name="LCSC" value="C137959"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -732,6 +789,7 @@
       <fields>
         <field name="LCSC">C274888</field>
         <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C274888</field>
       </fields>
@@ -740,6 +798,7 @@
       <property name="Vendor#" value="C274888"/>
       <property name="MPN" value="RC0402FR-0713K7L "/>
       <property name="LCSC" value="C274888"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -753,6 +812,7 @@
       <fields>
         <field name="LCSC">C274888</field>
         <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C274888</field>
       </fields>
@@ -761,6 +821,7 @@
       <property name="Vendor#" value="C274888"/>
       <property name="MPN" value="RC0402FR-0713K7L "/>
       <property name="LCSC" value="C274888"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -775,6 +836,7 @@
       <fields>
         <field name="LCSC">C2651733</field>
         <field name="MPN">STSPIN32F0ATR</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C2651733</field>
       </fields>
@@ -783,6 +845,7 @@
       <property name="Vendor#" value="C2651733"/>
       <property name="MPN" value="STSPIN32F0ATR"/>
       <property name="LCSC" value="C2651733"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <property name="ki_description" value="ARM Cortex-M0 MCU, 16KB flash, 4KB RAM, 48MHz, 2-3.6V, 39 GPIO, LQFP-48"/>
@@ -796,37 +859,41 @@
       <datasheet>https://www.ti.com/lit/ds/symlink/thvd1400.pdf</datasheet>
       <fields>
         <field name="MPN">THVD1420DRLR</field>
-        <field name="Vendor">Digikey</field>
-        <field name="Vendor#">296-THVD1420DRLRCT-ND</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">TI</field>
+        <field name="Vendor#">THVD1420DRLR</field>
       </fields>
       <libsource lib="O32controller" part="THVD1420DRLR" description=""/>
-      <property name="Vendor" value="Digikey"/>
-      <property name="Vendor#" value="296-THVD1420DRLRCT-ND"/>
+      <property name="Vendor" value="TI"/>
+      <property name="Vendor#" value="THVD1420DRLR"/>
       <property name="MPN" value="THVD1420DRLR"/>
       <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>142662d9-d06c-4314-93de-222df953a6ba</tstamps>
     </comp>
     <comp ref="U3">
-      <value>MA702GQ-P</value>
-      <footprint>O32controller:MA702GQ-P</footprint>
-      <datasheet>https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MA702GQ-Z/document_id/3561/</datasheet>
+      <value>MA732GQ-Z</value>
+      <footprint>O32controller:QFN-16_MA732</footprint>
+      <datasheet>MA732GQ-Z</datasheet>
       <fields>
-        <field name="MPN">MA702GQ-P</field>
-        <field name="Vendor">MPS</field>
-        <field name="Vendor#">MA702GQ</field>
+        <field name="MPN">MA732GQ-Z</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">Mouser</field>
+        <field name="Vendor#">946-MA732GQ-Z</field>
       </fields>
-      <libsource lib="O32controller" part="MA702GQ-P" description=""/>
-      <property name="Vendor" value="MPS"/>
-      <property name="Vendor#" value="MA702GQ"/>
-      <property name="MPN" value="MA702GQ-P"/>
-      <property name="LCSC" value=""/>
+      <libsource lib="O32controller" part="MA732GQ-Z" description=""/>
+      <property name="Type" value="Global"/>
+      <property name="MPN" value="MA732GQ-Z"/>
+      <property name="Vendor" value="Mouser"/>
+      <property name="Vendor#" value="946-MA732GQ-Z"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="O32controller.kicad_sch"/>
+      <property name="ki_keywords" value="MA732GQ-Z"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2dec5ad0-ba77-478d-9478-1aceec7b88f6</tstamps>
+      <tstamps>a665ed96-5de2-4147-9c49-08a7edab221f</tstamps>
     </comp>
     <comp ref="C12">
       <value>10nF</value>
@@ -834,6 +901,7 @@
       <fields>
         <field name="LCSC">C15195</field>
         <field name="MPN">CL05B103KB5NNNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C15195</field>
       </fields>
@@ -842,6 +910,7 @@
       <property name="Vendor#" value="C15195"/>
       <property name="MPN" value="CL05B103KB5NNNC"/>
       <property name="LCSC" value="C15195"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -853,16 +922,18 @@
       <value>4.7nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C415704</field>
-        <field name="MPN">GRM155R72A472KA01D</field>
+        <field name="LCSC">C1538</field>
+        <field name="MPN">0402B472K500NT</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C415704</field>
+        <field name="Vendor#">C1538</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C415704"/>
-      <property name="MPN" value="GRM155R72A472KA01D"/>
-      <property name="LCSC" value="C415704"/>
+      <property name="Vendor#" value="C1538"/>
+      <property name="MPN" value="0402B472K500NT"/>
+      <property name="LCSC" value="C1538"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -874,16 +945,18 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C527029</field>
-        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="LCSC">C1523</field>
+        <field name="MPN">0402B102K500NT</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C527029</field>
+        <field name="Vendor#">C1523</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C527029"/>
-      <property name="MPN" value="CC0402MRX7R9BB102"/>
-      <property name="LCSC" value="C527029"/>
+      <property name="Vendor#" value="C1523"/>
+      <property name="MPN" value="0402B102K500NT"/>
+      <property name="LCSC" value="C1523"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -897,14 +970,16 @@
       <datasheet>https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf</datasheet>
       <fields>
         <field name="MPN">CSD88584Q5DC</field>
-        <field name="Vendor">Digikey</field>
-        <field name="Vendor#">296-48904-1-ND</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">TI</field>
+        <field name="Vendor#">CSD88584Q5DC</field>
       </fields>
       <libsource lib="O32controller" part="CSD88584Q5DCT" description=""/>
-      <property name="Vendor" value="Digikey"/>
-      <property name="Vendor#" value="296-48904-1-ND"/>
+      <property name="Vendor" value="TI"/>
+      <property name="Vendor#" value="CSD88584Q5DC"/>
       <property name="MPN" value="CSD88584Q5DC"/>
       <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
@@ -916,6 +991,7 @@
       <fields>
         <field name="LCSC">C854481</field>
         <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C854481</field>
       </fields>
@@ -924,6 +1000,7 @@
       <property name="Vendor#" value="C854481"/>
       <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="LCSC" value="C854481"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -935,16 +1012,18 @@
       <value>2.2R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C2079158</field>
-        <field name="MPN">CRCW04022R20JNEDHP</field>
+        <field name="LCSC">C131536</field>
+        <field name="MPN">RK73B1ETTP2R2J</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C2079158</field>
+        <field name="Vendor#">C131536</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C2079158"/>
-      <property name="MPN" value="CRCW04022R20JNEDHP"/>
-      <property name="LCSC" value="C2079158"/>
+      <property name="Vendor#" value="C131536"/>
+      <property name="MPN" value="RK73B1ETTP2R2J"/>
+      <property name="LCSC" value="C131536"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -958,6 +1037,7 @@
       <fields>
         <field name="LCSC">C854481</field>
         <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C854481</field>
       </fields>
@@ -966,6 +1046,7 @@
       <property name="Vendor#" value="C854481"/>
       <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="LCSC" value="C854481"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -979,6 +1060,7 @@
       <fields>
         <field name="LCSC">C273730</field>
         <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C273730</field>
       </fields>
@@ -987,6 +1069,7 @@
       <property name="Vendor#" value="C273730"/>
       <property name="MPN" value="RC0402FR-0727K4L "/>
       <property name="LCSC" value="C273730"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -998,16 +1081,18 @@
       <value>1.78k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C185450</field>
-        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="LCSC">C284379</field>
+        <field name="MPN">ARG02FTC1781</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C185450</field>
+        <field name="Vendor#">C284379</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C185450"/>
-      <property name="MPN" value="RC0402FR-071K78L "/>
-      <property name="LCSC" value="C185450"/>
+      <property name="Vendor#" value="C284379"/>
+      <property name="MPN" value="ARG02FTC1781"/>
+      <property name="LCSC" value="C284379"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1021,6 +1106,7 @@
       <fields>
         <field name="LCSC">C273730</field>
         <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C273730</field>
       </fields>
@@ -1029,6 +1115,7 @@
       <property name="Vendor#" value="C273730"/>
       <property name="MPN" value="RC0402FR-0727K4L "/>
       <property name="LCSC" value="C273730"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1040,16 +1127,18 @@
       <value>1.78k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C185450</field>
-        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="LCSC">C284379</field>
+        <field name="MPN">ARG02FTC1781</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C185450</field>
+        <field name="Vendor#">C284379</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C185450"/>
-      <property name="MPN" value="RC0402FR-071K78L "/>
-      <property name="LCSC" value="C185450"/>
+      <property name="Vendor#" value="C284379"/>
+      <property name="MPN" value="ARG02FTC1781"/>
+      <property name="LCSC" value="C284379"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1064,6 +1153,7 @@
       <fields>
         <field name="LCSC">C2090861</field>
         <field name="MPN">PU2512FKMP50R002L</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C2090861</field>
       </fields>
@@ -1072,6 +1162,7 @@
       <property name="Vendor#" value="C2090861"/>
       <property name="MPN" value="PU2512FKMP50R002L"/>
       <property name="LCSC" value="C2090861"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase U/" tstamps="/afcdcb47-145e-4051-91ad-5d7b960fbb25/"/>
@@ -1083,6 +1174,7 @@
       <fields>
         <field name="LCSC">C274888</field>
         <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C274888</field>
       </fields>
@@ -1091,6 +1183,7 @@
       <property name="Vendor#" value="C274888"/>
       <property name="MPN" value="RC0402FR-0713K7L "/>
       <property name="LCSC" value="C274888"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase U"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1104,6 +1197,7 @@
       <fields>
         <field name="LCSC">C15195</field>
         <field name="MPN">CL05B103KB5NNNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C15195</field>
       </fields>
@@ -1112,6 +1206,7 @@
       <property name="Vendor#" value="C15195"/>
       <property name="MPN" value="CL05B103KB5NNNC"/>
       <property name="LCSC" value="C15195"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1123,16 +1218,18 @@
       <value>4.7nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C415704</field>
-        <field name="MPN">GRM155R72A472KA01D</field>
+        <field name="LCSC">C1538</field>
+        <field name="MPN">0402B472K500NT</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C415704</field>
+        <field name="Vendor#">C1538</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C415704"/>
-      <property name="MPN" value="GRM155R72A472KA01D"/>
-      <property name="LCSC" value="C415704"/>
+      <property name="Vendor#" value="C1538"/>
+      <property name="MPN" value="0402B472K500NT"/>
+      <property name="LCSC" value="C1538"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1144,16 +1241,18 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C527029</field>
-        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="LCSC">C1523</field>
+        <field name="MPN">0402B102K500NT</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C527029</field>
+        <field name="Vendor#">C1523</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C527029"/>
-      <property name="MPN" value="CC0402MRX7R9BB102"/>
-      <property name="LCSC" value="C527029"/>
+      <property name="Vendor#" value="C1523"/>
+      <property name="MPN" value="0402B102K500NT"/>
+      <property name="LCSC" value="C1523"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1167,14 +1266,16 @@
       <datasheet>https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf</datasheet>
       <fields>
         <field name="MPN">CSD88584Q5DC</field>
-        <field name="Vendor">Digikey</field>
-        <field name="Vendor#">296-48904-1-ND</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">TI</field>
+        <field name="Vendor#">CSD88584Q5DC</field>
       </fields>
       <libsource lib="O32controller" part="CSD88584Q5DCT" description=""/>
-      <property name="Vendor" value="Digikey"/>
-      <property name="Vendor#" value="296-48904-1-ND"/>
+      <property name="Vendor" value="TI"/>
+      <property name="Vendor#" value="CSD88584Q5DC"/>
       <property name="MPN" value="CSD88584Q5DC"/>
       <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
@@ -1186,6 +1287,7 @@
       <fields>
         <field name="LCSC">C854481</field>
         <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C854481</field>
       </fields>
@@ -1194,6 +1296,7 @@
       <property name="Vendor#" value="C854481"/>
       <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="LCSC" value="C854481"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1205,16 +1308,18 @@
       <value>2.2R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C2079158</field>
-        <field name="MPN">CRCW04022R20JNEDHP</field>
+        <field name="LCSC">C131536</field>
+        <field name="MPN">RK73B1ETTP2R2J</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C2079158</field>
+        <field name="Vendor#">C131536</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C2079158"/>
-      <property name="MPN" value="CRCW04022R20JNEDHP"/>
-      <property name="LCSC" value="C2079158"/>
+      <property name="Vendor#" value="C131536"/>
+      <property name="MPN" value="RK73B1ETTP2R2J"/>
+      <property name="LCSC" value="C131536"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1228,6 +1333,7 @@
       <fields>
         <field name="LCSC">C854481</field>
         <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C854481</field>
       </fields>
@@ -1236,6 +1342,7 @@
       <property name="Vendor#" value="C854481"/>
       <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="LCSC" value="C854481"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1249,6 +1356,7 @@
       <fields>
         <field name="LCSC">C273730</field>
         <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C273730</field>
       </fields>
@@ -1257,6 +1365,7 @@
       <property name="Vendor#" value="C273730"/>
       <property name="MPN" value="RC0402FR-0727K4L "/>
       <property name="LCSC" value="C273730"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1268,16 +1377,18 @@
       <value>1.78k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C185450</field>
-        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="LCSC">C284379</field>
+        <field name="MPN">ARG02FTC1781</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C185450</field>
+        <field name="Vendor#">C284379</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C185450"/>
-      <property name="MPN" value="RC0402FR-071K78L "/>
-      <property name="LCSC" value="C185450"/>
+      <property name="Vendor#" value="C284379"/>
+      <property name="MPN" value="ARG02FTC1781"/>
+      <property name="LCSC" value="C284379"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1291,6 +1402,7 @@
       <fields>
         <field name="LCSC">C273730</field>
         <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C273730</field>
       </fields>
@@ -1299,6 +1411,7 @@
       <property name="Vendor#" value="C273730"/>
       <property name="MPN" value="RC0402FR-0727K4L "/>
       <property name="LCSC" value="C273730"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1310,16 +1423,18 @@
       <value>1.78k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C185450</field>
-        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="LCSC">C284379</field>
+        <field name="MPN">ARG02FTC1781</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C185450</field>
+        <field name="Vendor#">C284379</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C185450"/>
-      <property name="MPN" value="RC0402FR-071K78L "/>
-      <property name="LCSC" value="C185450"/>
+      <property name="Vendor#" value="C284379"/>
+      <property name="MPN" value="ARG02FTC1781"/>
+      <property name="LCSC" value="C284379"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1334,6 +1449,7 @@
       <fields>
         <field name="LCSC">C2090861</field>
         <field name="MPN">PU2512FKMP50R002L</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C2090861</field>
       </fields>
@@ -1342,6 +1458,7 @@
       <property name="Vendor#" value="C2090861"/>
       <property name="MPN" value="PU2512FKMP50R002L"/>
       <property name="LCSC" value="C2090861"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase V/" tstamps="/801c7eb0-ff7a-4793-a702-7472e29bc37a/"/>
@@ -1353,6 +1470,7 @@
       <fields>
         <field name="LCSC">C274888</field>
         <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C274888</field>
       </fields>
@@ -1361,6 +1479,7 @@
       <property name="Vendor#" value="C274888"/>
       <property name="MPN" value="RC0402FR-0713K7L "/>
       <property name="LCSC" value="C274888"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase V"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1374,6 +1493,7 @@
       <fields>
         <field name="LCSC">C15195</field>
         <field name="MPN">CL05B103KB5NNNC</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C15195</field>
       </fields>
@@ -1382,6 +1502,7 @@
       <property name="Vendor#" value="C15195"/>
       <property name="MPN" value="CL05B103KB5NNNC"/>
       <property name="LCSC" value="C15195"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1393,16 +1514,18 @@
       <value>4.7nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C415704</field>
-        <field name="MPN">GRM155R72A472KA01D</field>
+        <field name="LCSC">C1538</field>
+        <field name="MPN">0402B472K500NT</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C415704</field>
+        <field name="Vendor#">C1538</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C415704"/>
-      <property name="MPN" value="GRM155R72A472KA01D"/>
-      <property name="LCSC" value="C415704"/>
+      <property name="Vendor#" value="C1538"/>
+      <property name="MPN" value="0402B472K500NT"/>
+      <property name="LCSC" value="C1538"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1414,16 +1537,18 @@
       <value>1nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C527029</field>
-        <field name="MPN">CC0402MRX7R9BB102</field>
+        <field name="LCSC">C1523</field>
+        <field name="MPN">0402B102K500NT</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C527029</field>
+        <field name="Vendor#">C1523</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C527029"/>
-      <property name="MPN" value="CC0402MRX7R9BB102"/>
-      <property name="LCSC" value="C527029"/>
+      <property name="Vendor#" value="C1523"/>
+      <property name="MPN" value="0402B102K500NT"/>
+      <property name="LCSC" value="C1523"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1437,14 +1562,16 @@
       <datasheet>https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf</datasheet>
       <fields>
         <field name="MPN">CSD88584Q5DC</field>
-        <field name="Vendor">Digikey</field>
-        <field name="Vendor#">296-48904-1-ND</field>
+        <field name="Type">Global</field>
+        <field name="Vendor">TI</field>
+        <field name="Vendor#">CSD88584Q5DC</field>
       </fields>
       <libsource lib="O32controller" part="CSD88584Q5DCT" description=""/>
-      <property name="Vendor" value="Digikey"/>
-      <property name="Vendor#" value="296-48904-1-ND"/>
+      <property name="Vendor" value="TI"/>
+      <property name="Vendor#" value="CSD88584Q5DC"/>
       <property name="MPN" value="CSD88584Q5DC"/>
       <property name="LCSC" value=""/>
+      <property name="Type" value="Global"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
@@ -1456,6 +1583,7 @@
       <fields>
         <field name="LCSC">C854481</field>
         <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C854481</field>
       </fields>
@@ -1464,6 +1592,7 @@
       <property name="Vendor#" value="C854481"/>
       <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="LCSC" value="C854481"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1475,16 +1604,18 @@
       <value>2.2R</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C2079158</field>
-        <field name="MPN">CRCW04022R20JNEDHP</field>
+        <field name="LCSC">C131536</field>
+        <field name="MPN">RK73B1ETTP2R2J</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C2079158</field>
+        <field name="Vendor#">C131536</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C2079158"/>
-      <property name="MPN" value="CRCW04022R20JNEDHP"/>
-      <property name="LCSC" value="C2079158"/>
+      <property name="Vendor#" value="C131536"/>
+      <property name="MPN" value="RK73B1ETTP2R2J"/>
+      <property name="LCSC" value="C131536"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1498,6 +1629,7 @@
       <fields>
         <field name="LCSC">C854481</field>
         <field name="MPN">SR0402FR-7T10RL</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C854481</field>
       </fields>
@@ -1506,6 +1638,7 @@
       <property name="Vendor#" value="C854481"/>
       <property name="MPN" value="SR0402FR-7T10RL"/>
       <property name="LCSC" value="C854481"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1519,6 +1652,7 @@
       <fields>
         <field name="LCSC">C273730</field>
         <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C273730</field>
       </fields>
@@ -1527,6 +1661,7 @@
       <property name="Vendor#" value="C273730"/>
       <property name="MPN" value="RC0402FR-0727K4L "/>
       <property name="LCSC" value="C273730"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1538,16 +1673,18 @@
       <value>1.78k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C185450</field>
-        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="LCSC">C284379</field>
+        <field name="MPN">ARG02FTC1781</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C185450</field>
+        <field name="Vendor#">C284379</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C185450"/>
-      <property name="MPN" value="RC0402FR-071K78L "/>
-      <property name="LCSC" value="C185450"/>
+      <property name="Vendor#" value="C284379"/>
+      <property name="MPN" value="ARG02FTC1781"/>
+      <property name="LCSC" value="C284379"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1561,6 +1698,7 @@
       <fields>
         <field name="LCSC">C273730</field>
         <field name="MPN">RC0402FR-0727K4L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C273730</field>
       </fields>
@@ -1569,6 +1707,7 @@
       <property name="Vendor#" value="C273730"/>
       <property name="MPN" value="RC0402FR-0727K4L "/>
       <property name="LCSC" value="C273730"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1580,16 +1719,18 @@
       <value>1.78k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <fields>
-        <field name="LCSC">C185450</field>
-        <field name="MPN">RC0402FR-071K78L </field>
+        <field name="LCSC">C284379</field>
+        <field name="MPN">ARG02FTC1781</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
-        <field name="Vendor#">C185450</field>
+        <field name="Vendor#">C284379</field>
       </fields>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <property name="Vendor" value="LCSC"/>
-      <property name="Vendor#" value="C185450"/>
-      <property name="MPN" value="RC0402FR-071K78L "/>
-      <property name="LCSC" value="C185450"/>
+      <property name="Vendor#" value="C284379"/>
+      <property name="MPN" value="ARG02FTC1781"/>
+      <property name="LCSC" value="C284379"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1604,6 +1745,7 @@
       <fields>
         <field name="LCSC">C2090861</field>
         <field name="MPN">PU2512FKMP50R002L</field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C2090861</field>
       </fields>
@@ -1612,6 +1754,7 @@
       <property name="Vendor#" value="C2090861"/>
       <property name="MPN" value="PU2512FKMP50R002L"/>
       <property name="LCSC" value="C2090861"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <sheetpath names="/Motor phase W/" tstamps="/d1474dce-644b-4913-80b1-6962d0581a1a/"/>
@@ -1623,6 +1766,7 @@
       <fields>
         <field name="LCSC">C274888</field>
         <field name="MPN">RC0402FR-0713K7L </field>
+        <field name="Type">Extended</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C274888</field>
       </fields>
@@ -1631,6 +1775,7 @@
       <property name="Vendor#" value="C274888"/>
       <property name="MPN" value="RC0402FR-0713K7L "/>
       <property name="LCSC" value="C274888"/>
+      <property name="Type" value="Extended"/>
       <property name="Sheetname" value="Motor phase W"/>
       <property name="Sheetfile" value="motorphase.kicad_sch"/>
       <property name="ki_description" value="Resistor, small US symbol"/>
@@ -1644,6 +1789,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1652,6 +1798,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1665,6 +1812,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1673,6 +1821,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1686,6 +1835,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1694,6 +1844,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1707,6 +1858,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1715,6 +1867,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1728,6 +1881,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1736,6 +1890,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1749,6 +1904,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1757,6 +1913,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1770,6 +1927,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1778,6 +1936,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1791,6 +1950,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1799,6 +1959,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1812,6 +1973,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1820,6 +1982,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1833,6 +1996,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1841,6 +2005,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1854,6 +2019,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1862,6 +2028,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1875,6 +2042,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1883,6 +2051,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1896,6 +2065,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1904,6 +2074,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1917,6 +2088,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1925,6 +2097,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1938,6 +2111,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1946,6 +2120,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1959,6 +2134,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1967,6 +2143,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -1980,6 +2157,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -1988,6 +2166,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2001,6 +2180,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2009,6 +2189,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2022,6 +2203,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2030,6 +2212,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2043,6 +2226,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2051,6 +2235,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2064,6 +2249,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2072,6 +2258,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2085,6 +2272,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2093,6 +2281,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2106,6 +2295,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2114,6 +2304,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2127,6 +2318,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2135,6 +2327,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2148,6 +2341,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2156,6 +2350,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2169,6 +2364,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2177,6 +2373,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2190,6 +2387,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2198,6 +2396,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2211,6 +2410,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2219,6 +2419,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2232,6 +2433,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2240,6 +2442,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2253,6 +2456,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2261,6 +2465,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2274,6 +2479,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2282,6 +2488,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2295,6 +2502,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2303,6 +2511,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2316,6 +2525,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2324,6 +2534,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2337,6 +2548,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2345,6 +2557,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2358,6 +2571,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2366,6 +2580,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2379,6 +2594,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2387,6 +2603,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2400,6 +2617,7 @@
       <fields>
         <field name="LCSC">C45783</field>
         <field name="MPN">CL21A226MAQNNNE</field>
+        <field name="Type">Basic</field>
         <field name="Vendor">LCSC</field>
         <field name="Vendor#">C45783</field>
       </fields>
@@ -2408,6 +2626,7 @@
       <property name="Vendor#" value="C45783"/>
       <property name="MPN" value="CL21A226MAQNNNE"/>
       <property name="LCSC" value="C45783"/>
+      <property name="Type" value="Basic"/>
       <property name="Sheetname" value="Bus Capacitors"/>
       <property name="Sheetfile" value="buscaps.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
@@ -2417,6 +2636,21 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector" part="Conn_01x02_Pin">
       <description>Generic connector, single row, 01x02, script generated</description>
       <docs>~</docs>
@@ -2433,15 +2667,15 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="Conn_01x06_Pin">
-      <description>Generic connector, single row, 01x06, script generated</description>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
       <docs>~</docs>
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x06_Pin</field>
+        <field name="Value">Conn_01x04_Pin</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -2449,8 +2683,6 @@
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="TestPoint">
@@ -2588,6 +2820,23 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Diode" part="SMF15A">
+      <description>200W unidirectional Transil Transient Voltage Suppressor, 15Vrwm, SMF</description>
+      <docs>https://www.vishay.com/doc?85881</docs>
+      <footprints>
+        <fp>D*SMF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMF15A</field>
+        <field name="Footprint">Diode_SMD:D_SMF</field>
+        <field name="Datasheet">https://www.vishay.com/doc?85881</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="O32controller" part="CSD88584Q5DCT">
       <docs>https://www.ti.com/lit/ds/symlink/csd88584q5dc.pdf</docs>
       <footprints>
@@ -2611,24 +2860,6 @@
         <pin num="25" name="NC" type="no_connect"/>
         <pin num="26" name="NC" type="no_connect"/>
         <pin num="27" name="VIN" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="O32controller" part="ESDA17P20-1F2">
-      <docs>ESDA17P20-1F2</docs>
-      <footprints>
-        <fp>SMT2_0P91X0P63_STM</fp>
-        <fp>SMT2_0P91X0P63_STM-M</fp>
-        <fp>SMT2_0P91X0P63_STM-L</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">CR</field>
-        <field name="Value">ESDA17P20-1F2</field>
-        <field name="Footprint">O32controller:SMT2_0P91X0P63_STM</field>
-        <field name="Datasheet">ESDA17P20-1F2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="unspecified"/>
-        <pin num="2" name="" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="O32controller" part="JST_SM02B-SRSS-TB(LF)(SN)">
@@ -2664,14 +2895,18 @@
         <pin num="S2" name="SHIELD" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="O32controller" part="MA702GQ-P">
+    <libpart lib="O32controller" part="MA732GQ-Z">
+      <docs>MA732GQ-Z</docs>
       <footprints>
-        <fp>QFN-3x3_MA702_MNP</fp>
+        <fp>QFN-16_MA732</fp>
+        <fp>QFN-16_MA732-M</fp>
+        <fp>QFN-16_MA732-L</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">MA702GQ-P</field>
-        <field name="Footprint">O32controller:MA702GQ-P</field>
+        <field name="Value">MA732GQ-Z</field>
+        <field name="Footprint">O32controller:QFN-16_MA732</field>
+        <field name="Datasheet">MA732GQ-Z</field>
       </fields>
       <pins>
         <pin num="1" name="SSD" type="output"/>
@@ -2802,6 +3037,9 @@
     </library>
     <library logical="Device">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="O32controller">
       <uri>/Users/chris/Kicad/O32controller/v3/O32controller.kicad_sym</uri>
@@ -3017,66 +3255,66 @@
       <node ref="Q3" pin="2" pinfunction="SH" pintype="output"/>
       <node ref="U1" pin="26" pinfunction="OUTW" pintype="input"/>
     </net>
-    <net code="41" name="/RS485_A">
+    <net code="41" name="/PA15">
+      <node ref="U1" pin="39" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/RS485_A">
       <node ref="J8" pin="1" pinfunction="1" pintype="bidirectional"/>
       <node ref="J9" pin="1" pinfunction="1" pintype="bidirectional"/>
       <node ref="U2" pin="6" pinfunction="A" pintype="bidirectional"/>
     </net>
-    <net code="42" name="/RS485_B">
+    <net code="43" name="/RS485_B">
       <node ref="J8" pin="2" pinfunction="2" pintype="bidirectional"/>
       <node ref="J9" pin="2" pinfunction="2" pintype="bidirectional"/>
       <node ref="U2" pin="7" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="43" name="/Red_Anode">
+    <net code="44" name="/Red_Anode">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="/SPI_MISO">
+    <net code="45" name="/SPI_MISO">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="PA6" pintype="bidirectional"/>
       <node ref="U3" pin="7" pinfunction="MISO" pintype="output"/>
     </net>
-    <net code="45" name="/SPI_MOSI">
+    <net code="46" name="/SPI_MOSI">
       <node ref="U1" pin="18" pinfunction="PA7" pintype="bidirectional"/>
       <node ref="U3" pin="4" pinfunction="MOSI" pintype="input"/>
     </net>
-    <net code="46" name="/SPI_SCLK">
+    <net code="47" name="/SPI_SCLK">
       <node ref="U1" pin="16" pinfunction="PA5" pintype="bidirectional"/>
       <node ref="U3" pin="12" pinfunction="SCLK" pintype="input"/>
     </net>
-    <net code="47" name="/SW_3.3">
+    <net code="48" name="/SW_3.3">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L1" pin="2" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="SW" pintype="output"/>
     </net>
-    <net code="48" name="/USART_DE">
+    <net code="49" name="/USART_DE">
       <node ref="U1" pin="12" pinfunction="PA1" pintype="bidirectional"/>
       <node ref="U2" pin="2" pinfunction="~{RE}" pintype="input"/>
       <node ref="U2" pin="3" pinfunction="DE" pintype="input"/>
     </net>
-    <net code="49" name="/USART_RX">
+    <net code="50" name="/USART_RX">
       <node ref="U1" pin="41" pinfunction="PB7" pintype="bidirectional"/>
       <node ref="U2" pin="1" pinfunction="R" pintype="output"/>
     </net>
-    <net code="50" name="/VBOOTU">
+    <net code="51" name="/VBOOTU">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="U1" pin="35" pinfunction="VBOOTU" pintype="power_out"/>
     </net>
-    <net code="51" name="/VBOOTV">
+    <net code="52" name="/VBOOTV">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="VBOOTV" pintype="power_out"/>
     </net>
-    <net code="52" name="/VBOOTW">
+    <net code="53" name="/VBOOTW">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="U1" pin="27" pinfunction="VBOOTW" pintype="power_out"/>
     </net>
-    <net code="53" name="/~{MAG1_CS}">
+    <net code="54" name="/~{MAG1_CS}">
       <node ref="U1" pin="5" pinfunction="PF1" pintype="bidirectional"/>
       <node ref="U3" pin="5" pinfunction="CS" pintype="input"/>
-    </net>
-    <net code="54" name="/~{MAG2_CS}">
-      <node ref="U1" pin="39" pinfunction="PA15" pintype="bidirectional"/>
     </net>
     <net code="55" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
@@ -3126,8 +3364,8 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="2" pintype="unspecified"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J6" pin="S2" pinfunction="SHIELD" pintype="passive"/>
@@ -3225,7 +3463,7 @@
       <node ref="C55" pin="1" pintype="passive"/>
       <node ref="C56" pin="1" pintype="passive"/>
       <node ref="C57" pin="1" pintype="passive"/>
-      <node ref="D2" pin="1" pintype="unspecified"/>
+      <node ref="D7" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="Q1" pin="27" pinfunction="VIN" pintype="power_in"/>
       <node ref="Q2" pin="27" pinfunction="VIN" pintype="power_in"/>
       <node ref="Q3" pin="27" pinfunction="VIN" pintype="power_in"/>
