@@ -21,6 +21,10 @@ Critical components:
 - CSD88584Q5DC half-bridge (50A continuous)
 
 
+![schematic](media/schematic_v3.1.png)
+[Full schematic PDF](https://github.com/qwertpas/O32controller/blob/master/v3/output_v3.1/O32controller.pdf)
+
+
 More info on Hackaday.io: https://hackaday.io/project/189115-32-bldc-controller
 
 Firmware here: https://github.com/qwertpas/O32controller_FW
